@@ -15,6 +15,7 @@ public class Aim : MonoBehaviour
         Debug.DrawRay(transform.position, directionToFace, Color.green);
 
         // access current location = Quaternion Look rotation
-        transform.rotation = Quaternion.LookRotation(directionToFace);
+        Quaternion targetRotation = Quaternion.LookRotation(directionToFace);
+        transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime);
     }
 }
