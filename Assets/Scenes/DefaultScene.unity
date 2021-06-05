@@ -367,6 +367,8 @@ GameObject:
   - component: {fileID: 963194232}
   - component: {fileID: 963194233}
   - component: {fileID: 963194234}
+  - component: {fileID: 963194235}
+  - component: {fileID: 963194236}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -524,7 +526,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b60df372908f8d844b701cf1f498f398, type: 3}
   m_Name: 
@@ -533,6 +535,38 @@ MonoBehaviour:
   itemDescription: A simple sword.
   itemIcon: {fileID: 0}
   attackStrength: 15
+--- !u!114 &963194235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb75c136721c4fa4797e5c3c44ed801f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bill: 40
+  tip: 20
+  totalAmount: 0
+--- !u!114 &963194236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7576c9fe5ca29024086a05c7657c3938, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quiz1: 0
+  quiz2: 0
+  quiz3: 0
+  quiz4: 0
+  quiz5: 0
 --- !u!1 &1676272860
 GameObject:
   m_ObjectHideFlags: 0
