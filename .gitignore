@@ -1,3 +1,6 @@
+# Assets required for the Mech Scene
+# Excluded for licensing reasons
+/[Aa]ssets/GameDevHQ/
 
 # Created by https://www.toptal.com/developers/gitignore/api/unity,csharp,visualstudio,visualstudiocode,windows,macos
 # Edit at https://www.toptal.com/developers/gitignore?templates=unity,csharp,visualstudio,visualstudiocode,windows,macos
