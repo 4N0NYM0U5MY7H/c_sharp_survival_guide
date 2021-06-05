@@ -366,6 +366,7 @@ GameObject:
   - component: {fileID: 963194230}
   - component: {fileID: 963194232}
   - component: {fileID: 963194233}
+  - component: {fileID: 963194234}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -516,6 +517,22 @@ MonoBehaviour:
   score: 120
   hasAllKeys: 0
   ammoCount: 66
+--- !u!114 &963194234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b60df372908f8d844b701cf1f498f398, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: Sword
+  itemDescription: A simple sword.
+  itemIcon: {fileID: 0}
+  attackStrength: 15
 --- !u!1 &1676272860
 GameObject:
   m_ObjectHideFlags: 0

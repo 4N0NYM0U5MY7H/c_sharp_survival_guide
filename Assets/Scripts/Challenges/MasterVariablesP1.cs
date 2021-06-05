@@ -33,10 +33,4 @@ public class MasterVariablesP1 : MonoBehaviour
         Debug.Log("Ammo Count: " + ammoCount);
         Debug.Log("Has All Keys? " + hasAllKeys);
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
