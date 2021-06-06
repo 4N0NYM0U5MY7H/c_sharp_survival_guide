@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerElseIfStatements : MonoBehaviour
+public class ElseIfStatements : MonoBehaviour
 {
     public int easyDifficulty = 0;
     public int mediumDifficulty = 1;

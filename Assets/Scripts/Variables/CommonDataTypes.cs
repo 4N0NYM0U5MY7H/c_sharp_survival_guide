@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerCommonDataTypes : MonoBehaviour
+public class CommonDataTypes : MonoBehaviour
 {
     public int score;
     public float speed = 5.5f;

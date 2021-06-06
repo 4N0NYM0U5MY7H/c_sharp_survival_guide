@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerVariables : MonoBehaviour
+public class Variables : MonoBehaviour
 {
     /// <summary>
     /// public or private references

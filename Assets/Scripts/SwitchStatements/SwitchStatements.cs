@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerSwitchStatements : MonoBehaviour
+public class SwitchStatements : MonoBehaviour
 {
     public int selectedLevel;
 

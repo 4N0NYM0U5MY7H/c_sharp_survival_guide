@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerIfStatements : MonoBehaviour
+public class IfStatements : MonoBehaviour
 {
     public int age = 26;
     private int _legalAgeToDrive = 16;
