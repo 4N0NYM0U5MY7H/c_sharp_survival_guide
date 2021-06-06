@@ -170,7 +170,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &585979333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -184,6 +184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cube: {fileID: 585979332}
+  score: 0
 --- !u!65 &585979334
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -482,6 +483,7 @@ GameObject:
   - component: {fileID: 963194240}
   - component: {fileID: 963194241}
   - component: {fileID: 963194242}
+  - component: {fileID: 963194243}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -765,6 +767,19 @@ MonoBehaviour:
   quiz3: 0
   quiz4: 0
   quiz5: 0
+--- !u!114 &963194243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c108d5ba913e0a54e99c51055aaa9dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
 --- !u!1 &1676272860
 GameObject:
   m_ObjectHideFlags: 0
