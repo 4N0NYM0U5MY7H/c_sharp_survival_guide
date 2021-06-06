@@ -23,12 +23,5 @@ public class PlayerIfStatements : MonoBehaviour
         {
             Debug.Log("You can't drive!");
         }
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
