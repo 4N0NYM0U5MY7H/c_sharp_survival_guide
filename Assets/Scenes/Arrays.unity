@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 629688070}
   - component: {fileID: 629688071}
   - component: {fileID: 629688072}
+  - component: {fileID: 629688073}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -283,7 +284,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 629688065}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 825c64f563755e446bb1142f44bd6043, type: 3}
   m_Name: 
@@ -301,6 +302,31 @@ MonoBehaviour:
   - Mercedes
   - Lamborghini
   - Mazda
+  randomID: 0
+--- !u!114 &629688073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629688065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4c16b10780dd5f469d1cec72d7dcbc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemID: 0100000002000000030000000400000005000000060000000700000008000000090000000a000000
+  itemName:
+  - bread
+  - gold
+  - sword
+  - dagger
+  - poison spear
+  - cape
+  - cow hide
+  - raw hide
+  - flax
+  - chissel
 --- !u!1 &1633139705
 GameObject:
   m_ObjectHideFlags: 0
