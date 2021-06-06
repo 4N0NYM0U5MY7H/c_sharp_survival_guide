@@ -5,7 +5,7 @@
 ![license](https://img.shields.io/github/license/parasiticfrisk/c-sharp-survival-guide?style=flat-square)
 ![code-size](https://img.shields.io/github/languages/code-size/parasiticfrisk/c-sharp-survival-guide?style=flat-square)
 ![last-commit](https://img.shields.io/github/last-commit/parasiticfrisk/c-sharp-survival-guide?style=flat-square)
-![GitHub Clones](https://img.shields.io/badge/dynamic/json?color=informational&label=Clone&query=count&url=https://github.com/parasiticfrisk/c-sharp-survival-guide/blob/main/clone.json?raw=True&logo=github)
+![GitHub Clones](https://img.shields.io/badge/dynamic/json?color=informational&style=flat-square&label=Clone&query=count&url=https://github.com/parasiticfrisk/c-sharp-survival-guide/blob/main/clone.json?raw=True&logo=github)
 
 
 The Ultimate Resource to help master C#
