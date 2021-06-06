@@ -2,6 +2,10 @@
 # Excluded for licensing reasons
 /[Aa]ssets/GameDevHQ/
 
+# Assets required for SpaceFighter Scene
+# Excluded for licensing reasons
+/[Aa]ssets/SpaceFighter/
+
 # Created by https://www.toptal.com/developers/gitignore/api/unity,csharp,visualstudio,visualstudiocode,windows,macos
 # Edit at https://www.toptal.com/developers/gitignore?templates=unity,csharp,visualstudio,visualstudiocode,windows,macos
 
