@@ -44,10 +44,4 @@ public class QuizGrades : MonoBehaviour
             Debug.Log("You have an F");
         }
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
