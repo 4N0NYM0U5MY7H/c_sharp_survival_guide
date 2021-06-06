@@ -16,18 +16,12 @@ public class ArrayMaster : MonoBehaviour
     public int[] ages;
     public string[] cars;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Debug.Log("Name: " + names[4] + "Age: " + ages[4] + " Vehicle: " + cars[4]);
+            Debug.Log("Name: " + names[4] + " Age: " + ages[4] + " Vehicle: " + cars[4]);
         }
 
     }
