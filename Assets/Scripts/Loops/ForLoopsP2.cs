@@ -41,10 +41,4 @@ public class ForLoopsP2 : MonoBehaviour
         Debug.Log("Loop 3 has Finished");
 
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
