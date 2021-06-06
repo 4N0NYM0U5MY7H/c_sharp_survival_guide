@@ -2,6 +2,28 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+public class WeaponStats
+{
+    public string name;
+    public float fireRate;
+    public int ammoCount;
+
+    public WeaponStats() 
+    {
+        // Initialize things here
+        name = "Blasters";
+        fireRate = 0.25f;
+        ammoCount = 50;
+    }
+
+    public WeaponStats(string name, float fireRate, int ammoCount)
+    {
+        this.name = name;
+        this.fireRate = fireRate;
+        this.ammoCount = ammoCount;
+    }
+}
+
 public class SpaceFighter : MonoBehaviour
 {
     public GameObject laserPrefab;
@@ -10,6 +32,24 @@ public class SpaceFighter : MonoBehaviour
     [SerializeField]
     private float _speed;
     private float _xRange;
+
+    private WeaponStats blasters;
+    private WeaponStats lasers;
+    private WeaponStats rockets;
+
+    // Use this for initialization
+    private void Start()
+    {
+        blasters = new WeaponStats();
+        lasers = new WeaponStats("Lasers", 1.0f, 100);
+
+        rockets = new WeaponStats();
+        rockets.name = "Rockets";
+        rockets.fireRate = 5.0f;
+        rockets.ammoCount = 1;
+
+        Debug.Log("Current Weapon Name: " + blasters.name);
+    }
 
     // Update is called once per frame
     void Update()
