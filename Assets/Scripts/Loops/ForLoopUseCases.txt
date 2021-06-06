@@ -1,0 +1,9 @@
+FOR LOOP USE CASES
+
+- Iterate through all monsters in a "blast" zone and deal appropriate damage
+
+- Shatter an object (requires looping through each individual piece and adding physics)
+
+- Before adding an item to player inventory, need to first loop through the database and verify the item exits
+
+- Want to turn all game objects in view RED? Need to iterate through each object using a loop and effect each object.
