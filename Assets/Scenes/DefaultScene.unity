@@ -374,6 +374,7 @@ GameObject:
   - component: {fileID: 963194239}
   - component: {fileID: 963194240}
   - component: {fileID: 963194241}
+  - component: {fileID: 963194242}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -631,7 +632,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34306b85590cbe7459234c9a59d0a37c, type: 3}
   m_Name: 
@@ -640,6 +641,23 @@ MonoBehaviour:
   mediumDifficulty: 1
   hardDifficulty: 2
   currentDifficulty: 0
+--- !u!114 &963194242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96db21fbd0ffb564280dd4956dffeebc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quiz1: 0
+  quiz2: 0
+  quiz3: 0
+  quiz4: 0
+  quiz5: 0
 --- !u!1 &1676272860
 GameObject:
   m_ObjectHideFlags: 0
