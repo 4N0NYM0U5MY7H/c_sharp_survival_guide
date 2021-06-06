@@ -138,6 +138,7 @@ GameObject:
   - component: {fileID: 629688072}
   - component: {fileID: 629688073}
   - component: {fileID: 629688074}
+  - component: {fileID: 629688075}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -335,7 +336,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 629688065}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a2114b37278fc7a43810e4082176f321, type: 3}
   m_Name: 
@@ -352,6 +353,34 @@ MonoBehaviour:
   - flax
   - chisel
   agesArray: 1600000037000000
+--- !u!114 &629688075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629688065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3400672576a202243b2eec53f9407e9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myItems:
+  - itemID: 0
+    name: NULL
+    description: NULL
+  - itemID: 1
+    name: sword
+    description: This is a magical sword
+  - itemID: 2
+    name: bread
+    description: I can eat this
+  - itemID: 3
+    name: cape
+    description: Wonderful looking cape
+  - itemID: 4
+    name: spear
+    description: It has a sharp point
 --- !u!1 &1633139705
 GameObject:
   m_ObjectHideFlags: 0
