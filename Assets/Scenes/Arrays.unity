@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 629688066}
   - component: {fileID: 629688069}
   - component: {fileID: 629688070}
+  - component: {fileID: 629688071}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -236,7 +237,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 629688065}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 816452c4a021b8d4e9d62f2565f318ea, type: 3}
   m_Name: 
@@ -249,6 +250,31 @@ MonoBehaviour:
   - 
   - 
   ages: 0500000003000000020000003700000042000000
+--- !u!114 &629688071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629688065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acb1efce257fd3f47a4cf27ab34e13d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  names:
+  - Jon
+  - David
+  - Jessica
+  - Parker
+  - Cory
+  ages: 190000001a000000230000003700000016000000
+  cars:
+  - BMW
+  - Volvo
+  - Mercedes
+  - Lamborghini
+  - Mazda
 --- !u!1 &1633139705
 GameObject:
   m_ObjectHideFlags: 0
