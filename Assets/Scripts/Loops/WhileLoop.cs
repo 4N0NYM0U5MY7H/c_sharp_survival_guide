@@ -19,12 +19,6 @@ public class WhileLoop : MonoBehaviour
         StartCoroutine(LoopRoutine());
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     IEnumerator LoopRoutine()
     {
         while (true)
