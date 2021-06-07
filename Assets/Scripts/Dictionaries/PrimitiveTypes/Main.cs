@@ -9,7 +9,6 @@ namespace Section.Dictionaries.PrimitiveTypes
         public Dictionary<string, int> people = new Dictionary<string, int>();
         public Dictionary<int, string> books = new Dictionary<int, string>();
 
-
         // Start is called before the first frame update
         void Start()
         {
