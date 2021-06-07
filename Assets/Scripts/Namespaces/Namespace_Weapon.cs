@@ -14,12 +14,6 @@ namespace WeaponPack.Magic
             // Image. // UI stuff
             // SceneManager. // load scences
         }
-
-        // Update is called once per frame
-        void Update()
-        {
-
-        }
     }
 }
 
