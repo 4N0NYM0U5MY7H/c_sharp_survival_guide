@@ -337,6 +337,7 @@ GameObject:
   - component: {fileID: 1816047011}
   - component: {fileID: 1816047010}
   - component: {fileID: 1816047012}
+  - component: {fileID: 1816047013}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -394,7 +395,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1816047009}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0d36706094d8f2a46b3696a0be092205, type: 3}
   m_Name: 
@@ -405,6 +406,23 @@ MonoBehaviour:
   - Jessica
   - Jeremy
   - Jacob
+--- !u!114 &1816047013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1816047009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb309efff2dba0e41a7def31149e8fde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpawnList:
+  - {fileID: 2671695826442205713, guid: 5a0235ec822b29748855bfc9bb1fd8de, type: 3}
+  - {fileID: 2995527339591321853, guid: d0417e650546d834ab47d8bdf3a43ef3, type: 3}
+  - {fileID: 1449162931341026467, guid: a877358434642bf4998d17a2cfc02479, type: 3}
+  objectsCreated: []
 --- !u!1 &2025841237
 GameObject:
   m_ObjectHideFlags: 0
