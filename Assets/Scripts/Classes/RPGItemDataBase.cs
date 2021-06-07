@@ -32,6 +32,4 @@ public class RPGItemDataBase : MonoBehaviour
 
         return item;
     }
-
-
 }
