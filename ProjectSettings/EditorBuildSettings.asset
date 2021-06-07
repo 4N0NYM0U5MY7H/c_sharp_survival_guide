@@ -4,4 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Enums/Enums.unity
+    guid: 39f82edd2dcf4b548902db6a9adf3574
+  - enabled: 1
+    path: Assets/Scenes/Enums/Enums 2.unity
+    guid: 44defeb4782c97047ad7dd733bfd484d
+  - enabled: 1
+    path: Assets/Scenes/Enums/Enums 3.unity
+    guid: 66589b6f64028ce43bf5561a611a88e0
+  - enabled: 1
+    path: Assets/Scenes/Enums/Enums 4.unity
+    guid: ccb2a65fe6d4d154da7b6ffa7fe10472
+  m_configObjects: {}
