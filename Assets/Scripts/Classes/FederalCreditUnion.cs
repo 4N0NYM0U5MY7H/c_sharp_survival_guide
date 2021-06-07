@@ -9,6 +9,6 @@ public class FederalCreditUnion : Bank
 
     public void ApproveLending()
     {
-        Debug.Log("You are awarded a loan");
+        Debug.Log("You are awarded a loan!");
     }
 }
