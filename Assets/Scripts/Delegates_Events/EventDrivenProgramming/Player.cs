@@ -9,12 +9,6 @@ namespace Section.Delegates_Events.EventDrivenProgramming
         public delegate void OnDeath();
         public static event OnDeath onDeath;
 
-        // Start is called before the first frame update
-        void Start()
-        {
-
-        }
-
         // Update is called once per frame
         void Update()
         {

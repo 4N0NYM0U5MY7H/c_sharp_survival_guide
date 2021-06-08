@@ -15,17 +15,5 @@ namespace Section.Delegates_Events.EventDrivenProgramming
         {
             Debug.Log("Resetting Player");
         }
-
-        // Start is called before the first frame update
-        void Start()
-        {
-
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
-
-        }
     }
 }
