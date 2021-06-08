@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Section.Delegates_Events
+namespace Section.Delegates_Events.Delgates
 {
     public class Main : MonoBehaviour
     {
