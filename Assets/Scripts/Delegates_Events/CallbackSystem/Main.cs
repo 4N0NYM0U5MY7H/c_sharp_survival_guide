@@ -6,8 +6,6 @@ namespace Section.Delegates_Events.CallbackSystem
 {
     public class Main : MonoBehaviour
     {
-
-
         // Start is called before the first frame update
         void Start()
         {

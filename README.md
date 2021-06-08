@@ -10,25 +10,25 @@
 The Ultimate Resource to help master C#
 
 <div align="center">
+<table>
+<tr><td>
 
-| <p align="center">Misc. Unity Content</p> |
-| :---------------------------------------- |
-| Change GameObject Position                |
-| User Input                                |
-| Simple Movement                           |
-| Collectable GameObjects                   |
-| Pause Systems                             |
-| Post Processing Effects                   |
-| Destructable Crate                        |
-| Quaternions and Euler Angles              |
-| Quaternion Look Rotation                  |
-| Quaternion Slerp                          |
----
-</div>
+| Misc. Unity Content          |
+| :--------------------------- |
+| Change GameObject Position   |
+| User Input                   |
+| Simple Movement              |
+| Collectable GameObjects      |
+| Pause Systems                |
+| Post Processing Effects      |
+| Destructable Crate           |
+| Quaternions and Euler Angles |
+| Quaternion Look Rotation     |
+| Quaternion Slerp             |
 
-<div align="center">
+</td><td>
 
-| <p align="center">Variables</p>    |
+| Variables                          |
 | :--------------------------------- |
 | Variables                          |
 | Common Data Types                  |
@@ -36,12 +36,15 @@ The Ultimate Resource to help master C#
 | Challenge: Master Variables part 2 |
 | Challenge: Tip Calculator          |
 | Challenge: Quiz Grade Average      |
----
-</div>
+| ![]()                              |
+| ![]()                              |
+| ![]()                              |
+| ![]()                              |
 
-<div align="center">
+</td></tr>
+<tr><td>
 
-| <p align="center">If-Then Logic</p> |
+| If-Then Logic                       |
 | :---------------------------------- |
 | If-Statements                       |
 | Challenge: Master If-Statements P01 |
@@ -51,23 +54,24 @@ The Ultimate Resource to help master C#
 | Challenge: Quiz Grades              |
 | Challenge: Master If-Statements P04 |
 | Challenge: Speed Program            |
----
-</div>
 
-<div align="center">
+</td><td>
 
-| <p align="center">Switch Statements</p> |
+| Switch Statements                       |
 | :-------------------------------------- |
 | Switch Statements                       |
 | Challenge: Master Switch Statements P01 |
 | Challenge: Master Swtich Statements P02 |
 | Challenge: Weapon Select Program        |
----
-</div>
+| ![]()                                   |
+| ![]()                                   |
+| ![]()                                   |
+| ![]()                                   |
 
-<div align="center">
+</td></tr>
+<tr><td>
 
-| <p align="center">Loops</p>        |
+| Loops                              |
 | :--------------------------------- |
 | For Loops                          |
 | For Loops Understanding Continued  |
@@ -77,12 +81,10 @@ The Ultimate Resource to help master C#
 | While Loops                        |
 | Challenge: Ultimate Print Outs     |
 | Challenge: How Fast Are You Going? |
----
-</div>
 
-<div align="center">
+</td><td>
 
-| <p align="center">Arrays</p>          |
+| Arrays                                |
 | :------------------------------------ |
 | Array Syntax                          |
 | Access Array Elements                 |
@@ -92,27 +94,27 @@ The Ultimate Resource to help master C#
 | Print All Elements Using Foreach Loop |
 | Presentation: Looping Through Data    |
 | Challenge: Convert to For Loop        |
----
-</div>
 
-<div align="center">
+</td></tr>
+<tr><td>
 
-| <p align="center">Functions Vs Methods</p> |
-| :----------------------------------------- |
-| Functions Vs Methods Void                  |
-| Method Parameters                          |
-| Challenge: Pass the Object with Color      |
-| Return Type Functions                      |
-| Change Postions 4 Ways                     |
-| Challenge: Are You Alive?                  |
-| Practical Presentation: Return Array       |
-| Challenge: Position Matters                |
----
-</div>
+| Functions Vs Methods                  |
+| :------------------------------------ |
+| Functions Vs Methods Void             |
+| Method Parameters                     |
+| Challenge: Pass the Object with Color |
+| Return Type Functions                 |
+| Change Postions 4 Ways                |
+| Challenge: Are You Alive?             |
+| Practical Presentation: Return Array  |
+| Challenge: Position Matters           |
+| ![]()                                 |
+| ![]()                                 |
+| ![]()                                 |
 
-<div align="center">
+</td><td>
 
-| <p align="center">Classes</p>                       |
+| Classes                                             |
 | :-------------------------------------------------- |
 | Classes for Behaviors                               |
 | Custom Classes                                      |
@@ -124,12 +126,11 @@ The Ultimate Resource to help master C#
 | Protected Data Members                              |
 | Virtual Methods and Overriding                      |
 | Structs, Memory Management, Value & Reference Types |
----
-</div>
 
-<div align="center">
+</td></tr>
+<tr><td>
 
-| <p align="center">Static Types</p>                    |
+| Static Types                                          |
 | :---------------------------------------------------- |
 | Declaring Static Types                                |
 | Instance Members vs Static Members                    |
@@ -137,68 +138,82 @@ The Ultimate Resource to help master C#
 | Utility Helper Classes                                |
 | Challenge: Random Color Helper                        |
 | Initializing Static Members with a Static Constructor |
+
+</td><td>
+
+| Properties                      |
+| :------------------------------ |
+| Properties                      |
+| Auto Properties                 |
+| Challenge: Declaring Properties |
+| ![]()                           |
+
 ---
-</div>
 
-<div align="center">
+| Namespaces |
+| :--------- |
+| Namespaces |
 
-| <p align="center">Properties</p> |
-| :------------------------------- |
-| Properties                       |
-| Auto Properties                  |
-| Challenge: Declaring Properties  |
----
-</div>
+</td></tr>
+<tr><td>
 
-<div align="center">
-
-| <p align="center">Namespaces</p> |
-| :------------------------------- |
-| Namespaces                       |
----
-</div>
-
-<div align="center">
-
-| <p align="center">Lists</p>                                 |
+| Lists                                                       |
 | :---------------------------------------------------------- |
 | Lists                                                       |
 | Challenge: You Have Been Named                              |
 | Challenge: Build That Object List                           |
 | Practical Presentation: Createing Inventory Item DB Systems |
----
-</div>
 
-<div align="center">
+</td><td>
 
-| <p align="center">Enums</p> |
-| :-------------------------- |
-| Enums                       |
-| Enum Enemy AI               |
-| Enums in Custom Classes     |
-| Casting Enums to Ints       |
----
-</div>
+| Enums                   |
+| :---------------------- |
+| Enums                   |
+| Enum Enemy AI           |
+| Enums in Custom Classes |
+| Casting Enums to Ints   |
 
-<div align="center">
+</td></tr>
+<tr><td>
 
-| <p align="center">Dictionaries</p> |
-| :--------------------------------- |
-| Dictionary                         |
-| Looping Through Dictionary         |
-| Dictionary for Player Connections  |
-| Dictionary with Primitive Types    |
----
-</div>
+| Dictionaries                      |
+| :-------------------------------- |
+| Dictionary                        |
+| Looping Through Dictionary        |
+| Dictionary for Player Connections |
+| Dictionary with Primitive Types   |
+| ![]()                             |
 
-<div align="center">
+</td><td>
 
-| <p align="center">Abstract Classes & Interfaces</p> |
-| :-------------------------------------------------- |
-| Abstract Class and Methods                          |
-| Challenge: Employee Experience                      |
-| Interfaces Made Easy                                |
-| What is Polymorphism?                               |
-| Generic Interfaces                                  |
----
+| Abstract Classes & Interfaces  |
+| :----------------------------- |
+| Abstract Class and Methods     |
+| Challenge: Employee Experience |
+| Interfaces Made Easy           |
+| What is Polymorphism?          |
+| Generic Interfaces             |
+
+</td></tr>
+<tr><td>
+
+| Delegates & Events                            |
+| :-------------------------------------------- |
+| Delegates                                     |
+| Events                                        |
+| Example: Working with Delegates and Events    |
+| Challenge: Teleport Events                    |
+| Practical Event Driving Programming           |
+| Actions                                       |
+| Return Type Delegates and Func                |
+| Lambda Expressions                            |
+| Practice: Void Delegates with Parameters      |
+| Practice: Void Delegates with No Parameters   |
+| Practice: Return Delegates with no Parameters |
+| Practice: Return Delegates with parameters    |
+| Simple Callback System                        |
+
+</td><td>
+</td></tr>
+</table>
 </div>
