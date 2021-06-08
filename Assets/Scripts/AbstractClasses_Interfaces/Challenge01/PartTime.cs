@@ -15,4 +15,3 @@ namespace Section.AbstractClass_Interface.Challenge01
         }
     }
 }
-
