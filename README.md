@@ -244,6 +244,20 @@ The Ultimate Resource to help master C#
 ---
 </details>
 <details>
+<summary>Design Patterns: Singleton</summary>
+
+<table>
+<tr><td>Singleton Design Pattern</td></tr>
+<tr><td>Singleton UI Manager</td></tr>
+<tr><td>Challenge: Singleton Spawn Manager</td></tr>
+<tr><td>Singleton Lazy Instantiation</td></tr>
+<tr><td>Downside of Lazy Instantiation</td></tr>
+<tr><td>MonoSingleton</td></tr>
+</table>
+
+---
+</details>
+<details>
 <summary>Misc. Unity Content</summary>
 
 <table>
