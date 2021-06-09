@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Linq;
 
-namespace Section.LINQ.Challenge01
+namespace Section.LINQ.DecendingOrder
 {
     public class LinqExample : MonoBehaviour
     {
@@ -16,7 +16,7 @@ namespace Section.LINQ.Challenge01
         // Start is called before the first frame update
         void Start()
         {
-            var passingGrades = quizGrades.Where(qg => qg > 69);
+            var passingGrades = quizGrades.Where(qg => qg > 69).OrderByDescending(g => g).Reverse();
 
             foreach (var grade in passingGrades)
             {
