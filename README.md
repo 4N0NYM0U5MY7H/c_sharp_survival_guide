@@ -228,6 +228,22 @@ The Ultimate Resource to help master C#
 ---
 </details>
 <details>
+<summary>LINQ - Language-Integrated Query</summary>
+
+<table>
+<tr><td>LINQ Introduction: Any</td></tr>
+<tr><td>LINQ: Contains</td></tr>
+<tr><td>LINQ: Distinct</td></tr>
+<tr><td>LINQ: Where</td></tr>
+<tr><td>Challenge: Hands on with LINQ</td></tr>
+<tr><td>LINQ: Order by Decending</td></tr>
+<tr><td>Challenge: Filter Items</td></tr>
+<tr><td>How to Read and Convert Query Syntax</td></tr>
+</table>
+
+---
+</details>
+<details>
 <summary>Misc. Unity Content</summary>
 
 <table>
