@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Linq;
 
-namespace Section.LINQ
+namespace Section.LINQ.Contains
 {
     public class LinqExample : MonoBehaviour
     {
@@ -10,15 +10,9 @@ namespace Section.LINQ
         // Start is called before the first frame update
         void Start()
         {
-            //foreach (var name in names)
-            //{
-            //    if (name == "jon")
-            //    {
-            //        Debug.Log("Found Jon!");
-            //    }
-            //}
-
-            var nameFound = names.Any(name => name == "jon");
+            //var nameFound = names.Any(name => name == "jon");
+            
+            var nameFound = names.Contains("jon");            
             Debug.Log("Names Found: " + nameFound);
         }
     }
