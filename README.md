@@ -1,34 +1,24 @@
-# C# Suvival Guide
-
-![engine](https://img.shields.io/static/v1?label=game%20engine&message=Unity&color=black&style=flat-square)
-![language](https://img.shields.io/github/languages/top/parasiticfrisk/c-sharp-survival-guide?style=flat-square)
-![license](https://img.shields.io/github/license/parasiticfrisk/c-sharp-survival-guide?style=flat-square)
-![code-size](https://img.shields.io/github/languages/code-size/parasiticfrisk/c-sharp-survival-guide?style=flat-square)
-![last-commit](https://img.shields.io/github/last-commit/parasiticfrisk/c-sharp-survival-guide?style=flat-square)
-![GitHub Clones](https://img.shields.io/badge/dynamic/json?color=informational&style=flat-square&label=Clone&query=count&url=https://github.com/parasiticfrisk/c-sharp-survival-guide/blob/main/clone.json?raw=True&logo=github)
-
-The Ultimate Resource to help master C#
+[![header][header-img]][gdhq]
 
 <div align="center">
-<table>
-<tr><td>
 
-| Misc. Unity Content          |
-| :--------------------------- |
-| Change GameObject Position   |
-| User Input                   |
-| Simple Movement              |
-| Collectable GameObjects      |
-| Pause Systems                |
-| Post Processing Effects      |
-| Destructable Crate           |
-| Quaternions and Euler Angles |
-| Quaternion Look Rotation     |
-| Quaternion Slerp             |
+# GameDevHQ: Unity C# Suvival Guide
+The Ultimate Resource to help master C#
+---
+[![engine][unity-badge]][unity]
+![license][license-badge]
+![last-commit][commit-badge]
+[![GitHub Clones][clone-badge]][clone]
 
-</td><td>
+</div>
+<hr>
 
-| Variables                          |
+## Course Content
+
+<details>
+<summary>Variables</summary>
+
+|                                    |
 | :--------------------------------- |
 | Variables                          |
 | Common Data Types                  |
@@ -36,15 +26,12 @@ The Ultimate Resource to help master C#
 | Challenge: Master Variables part 2 |
 | Challenge: Tip Calculator          |
 | Challenge: Quiz Grade Average      |
-| ![]()                              |
-| ![]()                              |
-| ![]()                              |
-| ![]()                              |
+---
+</details>
+<details>
+<summary>If-Then Logic</summary>
 
-</td></tr>
-<tr><td>
-
-| If-Then Logic                       |
+|                                     |
 | :---------------------------------- |
 | If-Statements                       |
 | Challenge: Master If-Statements P01 |
@@ -54,24 +41,23 @@ The Ultimate Resource to help master C#
 | Challenge: Quiz Grades              |
 | Challenge: Master If-Statements P04 |
 | Challenge: Speed Program            |
+---
+</details>
+<details>
+<summary>Switch Statements</summary>
 
-</td><td>
-
-| Switch Statements                       |
+|                                         |
 | :-------------------------------------- |
 | Switch Statements                       |
 | Challenge: Master Switch Statements P01 |
 | Challenge: Master Swtich Statements P02 |
 | Challenge: Weapon Select Program        |
-| ![]()                                   |
-| ![]()                                   |
-| ![]()                                   |
-| ![]()                                   |
+---
+</details>
+<details>
+<summary>Loops</summary>
 
-</td></tr>
-<tr><td>
-
-| Loops                              |
+|                                    |
 | :--------------------------------- |
 | For Loops                          |
 | For Loops Understanding Continued  |
@@ -81,10 +67,12 @@ The Ultimate Resource to help master C#
 | While Loops                        |
 | Challenge: Ultimate Print Outs     |
 | Challenge: How Fast Are You Going? |
+---
+</details>
+<details>
+<summary>Arrays</summary>
 
-</td><td>
-
-| Arrays                                |
+|                                       |
 | :------------------------------------ |
 | Array Syntax                          |
 | Access Array Elements                 |
@@ -94,11 +82,12 @@ The Ultimate Resource to help master C#
 | Print All Elements Using Foreach Loop |
 | Presentation: Looping Through Data    |
 | Challenge: Convert to For Loop        |
+---
+</details>
+<details>
+<summary>Functions vs Methods</summary>
 
-</td></tr>
-<tr><td>
-
-| Functions Vs Methods                  |
+|                                       |
 | :------------------------------------ |
 | Functions Vs Methods Void             |
 | Method Parameters                     |
@@ -108,13 +97,12 @@ The Ultimate Resource to help master C#
 | Challenge: Are You Alive?             |
 | Practical Presentation: Return Array  |
 | Challenge: Position Matters           |
-| ![]()                                 |
-| ![]()                                 |
-| ![]()                                 |
+---
+</details>
+<details>
+<summary>Classes</summary>
 
-</td><td>
-
-| Classes                                             |
+|                                                     |
 | :-------------------------------------------------- |
 | Classes for Behaviors                               |
 | Custom Classes                                      |
@@ -126,11 +114,12 @@ The Ultimate Resource to help master C#
 | Protected Data Members                              |
 | Virtual Methods and Overriding                      |
 | Structs, Memory Management, Value & Reference Types |
+---
+</details>
+<details>
+<summary>Static Types</summary>
 
-</td></tr>
-<tr><td>
-
-| Static Types                                          |
+|                                                       |
 | :---------------------------------------------------- |
 | Declaring Static Types                                |
 | Instance Members vs Static Members                    |
@@ -138,66 +127,75 @@ The Ultimate Resource to help master C#
 | Utility Helper Classes                                |
 | Challenge: Random Color Helper                        |
 | Initializing Static Members with a Static Constructor |
+---
+</details>
+<details>
+<summary>Properties</summary>
 
-</td><td>
-
-| Properties                      |
+|                                 |
 | :------------------------------ |
 | Properties                      |
 | Auto Properties                 |
 | Challenge: Declaring Properties |
-| ![]()                           |
-
 ---
+</details>
+<details>
+<summary>Namespaces</summary>
 
-| Namespaces |
+|            |
 | :--------- |
 | Namespaces |
+---
+</details>
+<details>
+<summary>Lists</summary>
 
-</td></tr>
-<tr><td>
-
-| Lists                                                       |
+|                                                             |
 | :---------------------------------------------------------- |
 | Lists                                                       |
 | Challenge: You Have Been Named                              |
 | Challenge: Build That Object List                           |
 | Practical Presentation: Createing Inventory Item DB Systems |
+---
+</details>
+<details>
+<summary>Enums</summary>
 
-</td><td>
-
-| Enums                   |
+|                         |
 | :---------------------- |
 | Enums                   |
 | Enum Enemy AI           |
 | Enums in Custom Classes |
 | Casting Enums to Ints   |
+---
+</details>
+<details>
+<summary>Dictionaries</summary>
 
-</td></tr>
-<tr><td>
-
-| Dictionaries                      |
+|                                   |
 | :-------------------------------- |
 | Dictionary                        |
 | Looping Through Dictionary        |
 | Dictionary for Player Connections |
 | Dictionary with Primitive Types   |
-| ![]()                             |
+---
+</details>
+<details>
+<summary>Abstract Classes & Interfaces</summary>
 
-</td><td>
-
-| Abstract Classes & Interfaces  |
+|                                |
 | :----------------------------- |
 | Abstract Class and Methods     |
 | Challenge: Employee Experience |
 | Interfaces Made Easy           |
 | What is Polymorphism?          |
 | Generic Interfaces             |
+---
+</details>
+<details>
+<summary>Delegates & Events</summary>
 
-</td></tr>
-<tr><td>
-
-| Delegates & Events                            |
+|                                               |
 | :-------------------------------------------- |
 | Delegates                                     |
 | Events                                        |
@@ -212,8 +210,39 @@ The Ultimate Resource to help master C#
 | Practice: Return Delegates with no Parameters |
 | Practice: Return Delegates with parameters    |
 | Simple Callback System                        |
+---
+</details>
+<details>
+<summary>Misc. Unity Content</summary>
 
-</td><td>
-</td></tr>
-</table>
-</div>
+|                              |
+| :--------------------------- |
+| Change GameObject Position   |
+| User Input                   |
+| Simple Movement              |
+| Collectable GameObjects      |
+| Pause Systems                |
+| Post Processing Effects      |
+| Destructable Crate           |
+| Quaternions and Euler Angles |
+| Quaternion Look Rotation     |
+| Quaternion Slerp             |
+
+</details>
+<hr>
+
+<!--
+Badges & Images
+-->
+[header-img]:.github/assets/readme-header.jpg
+[unity-badge]:https://img.shields.io/badge/UNITY-C%23-yellow?logo=unity&labelColor=black&style=for-the-badge
+[license-badge]:https://img.shields.io/github/license/parasiticfrisk/c-sharp-survival-guide?color=informational&style=for-the-badge
+[commit-badge]:https://img.shields.io/github/last-commit/parasiticfrisk/c-sharp-survival-guide?style=for-the-badge
+[clone-badge]:https://img.shields.io/badge/dynamic/json?color=informational&style=for-the-badge&label=Clone&query=count&url=https://github.com/parasiticfrisk/c-sharp-survival-guide/blob/main/clone.json?raw=True&logo=github
+
+<!--
+Quick Links
+-->
+[gdhq]:https://learn.gamedevhq.com/p/the-unity-c-survival-guide "GameDevHQ: Unity C# Suvival Guide"
+[unity]:https://unity3d.com/get-unity/download "Unity Game Engine"
+[clone]:.github/workflows/clone-badge.yml "Clone Badge Workflow"
