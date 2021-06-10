@@ -270,6 +270,18 @@ The Ultimate Resource to help master C#
 ---
 </details>
 <details>
+<summary>Design Patterns: Command Patern</summary>
+
+<table>
+<tr><td>Command Pattern Implementation</td></tr>
+<tr><td>Challenge: The Command Manager</td></tr>
+<tr><td>Practical Implementation: Command Pattern</td></tr>
+<tr><td>Practical Implementation: Play and Rewind</td></tr>
+</table>
+
+---
+</details>
+<details>
 <summary>Misc. Unity Content</summary>
 
 <table>

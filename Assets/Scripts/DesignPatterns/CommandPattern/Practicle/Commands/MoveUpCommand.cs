@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Section.DesignPatterns.Command.Practicle
+namespace Section.DesignPatterns.Command.Practical
 {
     public class MoveUpCommand : ICommand
     {
@@ -22,7 +22,7 @@ namespace Section.DesignPatterns.Command.Practicle
 
         public void Undo()
         {
-            throw new System.NotImplementedException();
+            _player.Translate(Vector3.down * _speed * Time.deltaTime);
         }
     }
 }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Section.DesignPatterns.Command.Practicle
+namespace Section.DesignPatterns.Command.Practical
 {
     public class Player : MonoBehaviour
     {
@@ -15,38 +15,36 @@ namespace Section.DesignPatterns.Command.Practicle
         [SerializeField]
         private float _speed = 2.0f;
 
-        // Start is called before the first frame update
-        void Start()
-        {
-
-        }
-
         // Update is called once per frame
         void Update()
         {
-            if (Input.GetKey(KeyCode.W))
+            if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
             {
                 // move up command
                 moveUp = new MoveUpCommand(this.transform, _speed);
                 moveUp.Execute();
+                CommandManager.Instance.AddCommand(moveUp);
             }
-            else if (Input.GetKey(KeyCode.S))
+            else if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
             {
                 // move down command
                 moveDown = new MoveDownCommand(this.transform, _speed);
                 moveDown.Execute();
+                CommandManager.Instance.AddCommand(moveDown);
             }
-            else if (Input.GetKey(KeyCode.A))
+            else if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
             {
                 // move left command
                 moveLeft = new MoveLeftCommand(this.transform, _speed);
                 moveLeft.Execute();
+                CommandManager.Instance.AddCommand(moveLeft);
             }
-            else if (Input.GetKey(KeyCode.D))
+            else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
             {
                 // move right command
                 moveRight = new MoveRightCommand(this.transform, _speed);
                 moveRight.Execute();
+                CommandManager.Instance.AddCommand(moveRight);
             }
         }
     }

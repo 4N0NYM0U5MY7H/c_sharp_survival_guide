@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Section.DesignPatterns.Command.Practicle
+namespace Section.DesignPatterns.Command.Practical
 {
     public interface ICommand
     {
