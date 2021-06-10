@@ -2,7 +2,7 @@
 
 namespace Section.Variables.Challenge01
 {
-    public class MasterVariablesP1 : MonoBehaviour
+    public class MasterVars_01 : MonoBehaviour
     {
         /// Challenge Overview:
         /// 
