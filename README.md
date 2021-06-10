@@ -268,7 +268,7 @@ The Ultimate Resource to help master C#
 </table>
 
 ---
-</detials>
+</details>
 <details>
 <summary>Misc. Unity Content</summary>
 
