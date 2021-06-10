@@ -258,6 +258,18 @@ The Ultimate Resource to help master C#
 ---
 </details>
 <details>
+<summary>Design Patterns: Object Pooling</summary>
+
+<table>
+<tr><td>Object Pooling Design Pattern</td></tr>
+<tr><td>Challenge: Pool Manager</td></tr>
+<tr><td>Challenge: Request from Pool Manager</td></tr>
+<tr><td>Challenge: Recycle the Pool</td></tr>
+</table>
+
+---
+</detials>
+<details>
 <summary>Misc. Unity Content</summary>
 
 <table>
