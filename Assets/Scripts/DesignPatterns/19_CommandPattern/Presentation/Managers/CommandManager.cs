@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 
-namespace Section.DesignPatterns.Command.Practical
+namespace Section.DesignPatterns.Command.Presentation
 {
     public class CommandManager : MonoBehaviour
     {

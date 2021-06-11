@@ -1,8 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace Section.DesignPatterns.Command.Practical
+namespace Section.DesignPatterns.Command.Presentation
 {
     public class MoveUpCommand : ICommand
     {
