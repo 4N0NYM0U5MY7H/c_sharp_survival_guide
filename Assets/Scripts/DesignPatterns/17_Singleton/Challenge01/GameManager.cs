@@ -1,0 +1,29 @@
+﻿using UnityEngine;
+
+namespace Section.DesignPatterns.Singleton.Challenge01
+{
+    public class GameManager : MonoBehaviour
+    {
+        private static GameManager _instance;
+        public static GameManager Instance
+        {
+            get
+            {
+                if (_instance == null)
+                    Debug.LogError("The GameManager is NULL.");
+
+                return _instance;
+            }
+        }
+
+        private void Awake()
+        {
+            _instance = this;
+        }
+
+        public void DisplayName()
+        {
+            Debug.Log("My name is Sarah Palmer");
+        }
+    }
+}
