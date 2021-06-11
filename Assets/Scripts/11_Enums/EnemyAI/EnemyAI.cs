@@ -1,8 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace Section.Enums
+namespace Section.Enums.EnemyAI
 {
     public class EnemyAI : MonoBehaviour
     {

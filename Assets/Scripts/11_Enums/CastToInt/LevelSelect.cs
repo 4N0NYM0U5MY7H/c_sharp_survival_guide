@@ -1,9 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace Section.Enums
+namespace Section.Enums.CastToInt
 {
     public class LevelSelect : MonoBehaviour
     {

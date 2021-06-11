@@ -1,8 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace Section.Enums
+namespace Section.Enums.CutomClass
 {
     public class ItemDB : MonoBehaviour
     {
