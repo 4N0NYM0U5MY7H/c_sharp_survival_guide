@@ -1,8 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace Section.DesignPatterns.Singleton.LazyInstantiation
+namespace Section.DesignPatterns.Singleton.Lazy.Downside
 {
     public class SpawnManager : MonoBehaviour
     {
@@ -12,7 +10,10 @@ namespace Section.DesignPatterns.Singleton.LazyInstantiation
             get
             {
                 if (_instance == null)
-                    Debug.LogError("SpawnManager is NULL.");
+                {
+                    GameObject go = new GameObject("SpawnManager");
+                    go.AddComponent<SpawnManager>();
+                }
 
                 return _instance;
             }
@@ -23,9 +24,13 @@ namespace Section.DesignPatterns.Singleton.LazyInstantiation
             _instance = this;
         }
 
+        [SerializeField]
+        private GameObject _enemyPrefab;
+
         public void StartSpawning()
         {
             Debug.Log("Spawn Started");
+            Instantiate(_enemyPrefab);
         }
     }
 }

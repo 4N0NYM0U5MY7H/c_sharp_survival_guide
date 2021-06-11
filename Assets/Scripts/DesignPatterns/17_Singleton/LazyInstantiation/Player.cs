@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Section.DesignPatterns.Singleton.LazyInstantiation.Downfall
+namespace Section.DesignPatterns.Singleton.Lazy
 {
     public class Player : MonoBehaviour
     {

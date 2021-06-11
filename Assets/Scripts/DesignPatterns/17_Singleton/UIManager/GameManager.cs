@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Section.DesignPatterns.Singleton.Challenge01
+namespace Section.DesignPatterns.Singleton.UIManager
 {
     public class GameManager : MonoBehaviour
     {

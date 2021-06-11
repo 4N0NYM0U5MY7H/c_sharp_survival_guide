@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Section.DesignPatterns.Singleton.LazyInstantiation.Downfall
+namespace Section.DesignPatterns.Singleton.Challenge01
 {
     public class GameManager : MonoBehaviour
     {
@@ -23,7 +23,7 @@ namespace Section.DesignPatterns.Singleton.LazyInstantiation.Downfall
 
         public void DisplayName()
         {
-            Debug.Log("My name is Unknown");
+            Debug.Log("My name is Sarah Palmer");
         }
     }
 }

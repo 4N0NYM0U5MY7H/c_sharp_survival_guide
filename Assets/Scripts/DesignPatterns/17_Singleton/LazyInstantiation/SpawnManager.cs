@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Section.DesignPatterns.Singleton.LazyInstantiation.Downfall
+namespace Section.DesignPatterns.Singleton.Lazy
 {
     public class SpawnManager : MonoBehaviour
     {
@@ -10,10 +10,7 @@ namespace Section.DesignPatterns.Singleton.LazyInstantiation.Downfall
             get
             {
                 if (_instance == null)
-                {
-                    GameObject go = new GameObject("SpawnManager");
-                    go.AddComponent<SpawnManager>();
-                }
+                    Debug.LogError("SpawnManager is NULL.");
 
                 return _instance;
             }
@@ -24,13 +21,9 @@ namespace Section.DesignPatterns.Singleton.LazyInstantiation.Downfall
             _instance = this;
         }
 
-        [SerializeField]
-        private GameObject _enemyPrefab;
-
         public void StartSpawning()
         {
             Debug.Log("Spawn Started");
-            Instantiate(_enemyPrefab);
         }
     }
 }

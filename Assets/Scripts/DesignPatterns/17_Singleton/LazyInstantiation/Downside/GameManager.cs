@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Section.DesignPatterns.Singleton.LazyInstantiation
+namespace Section.DesignPatterns.Singleton.Lazy.Downside
 {
     public class GameManager : MonoBehaviour
     {
