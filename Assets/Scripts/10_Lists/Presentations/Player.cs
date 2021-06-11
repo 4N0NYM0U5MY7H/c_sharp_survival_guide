@@ -1,14 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using Section.Lists;
+﻿using UnityEngine;
 
-namespace Section.Lists
+namespace Section.Lists.Presentations
 {
     public class Player : MonoBehaviour
     {
         public Item[] inventory = new Item[10];
-
         private ItemDB _itemDatabase;
 
         private void Start()

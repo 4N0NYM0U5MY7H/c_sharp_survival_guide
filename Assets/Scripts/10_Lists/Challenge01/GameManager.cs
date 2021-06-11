@@ -1,16 +1,15 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace Section.Lists
+namespace Section.Lists.Challenge01
 {
-    public class YouHaveBeenNamed : MonoBehaviour
+    public class GameManager : MonoBehaviour
     {
-        /// Challenge:
-        ///     Create a list of names and print each.
-        ///     On key press
-        ///         remove" a random element from the list
-        ///         re-print the remaining names
+        /// Challenge Overview:
+        /// Create a list of names and print each.
+        /// On key press:
+        ///     remove" a random element from the list
+        ///     re-print the remaining names
         /// 
 
         public List<string> names = new List<string>();
@@ -30,7 +29,6 @@ namespace Section.Lists
             if (Input.GetKeyDown(KeyCode.Delete))
             {
                 var nameToRemove = names[Random.Range(0, names.Count)];
-
                 names.Remove(nameToRemove);
 
                 foreach (var name in names)

@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 namespace Section.Lists 
@@ -12,7 +11,6 @@ namespace Section.Lists
         void Start()
         {
             objectsToSpawn[0] = new GameObject();
-
             // enemiesToSpawn.Add(new GameObject);
         }
     }

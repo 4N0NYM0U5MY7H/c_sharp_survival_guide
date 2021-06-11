@@ -1,18 +1,17 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace Section.Lists
+namespace Section.Lists.Challenge02
 {
-    public class BuildObjectList : MonoBehaviour
+    public class GameManager : MonoBehaviour
     {
-        /// Challenge:
-        ///     Create a list/array of 3 gameObjects to spawn
-        ///     Randomly spawn the elements in a random position between +-10 on the X & Y axis.
-        ///     Spawned objects should be tracked in a list called objectsCreated.
-        ///     After 10 objects have been spawned
-        ///         objects can longer be spawned
-        ///         all objects turn GREEN and the list is CLEARED
+        /// Challenge Overview:
+        /// Create a list/array of 3 gameObjects to spawn
+        /// Randomly spawn the elements in a random position between +-10 on the X & Y axis.
+        /// Spawned objects should be tracked in a list called objectsCreated.
+        /// After 10 objects have been spawned
+        ///     objects can longer be spawned
+        ///     all objects turn GREEN and the list is CLEARED
         /// 
 
         public GameObject[] SpawnList = new GameObject[3];
@@ -37,11 +36,9 @@ namespace Section.Lists
                 var xRange = Random.Range(-maxSpawnDistance, maxSpawnDistance);
                 var yRange = Random.Range(-maxSpawnDistance, maxSpawnDistance);
                 var spawnPos = new Vector3(xRange, yRange, 0);
-
                 var spawnedObject = Instantiate(objectToSpawn, spawnPos, Quaternion.identity) as GameObject;
 
                 objectsCreated.Add(spawnedObject);
-
                 SpawnCount++;
             }
  

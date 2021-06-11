@@ -1,9 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using Section.Lists;
+﻿using UnityEngine;
 
-namespace Section.Lists
+namespace Section.Lists.Presentations
 {
     [System.Serializable]
     public class Item
