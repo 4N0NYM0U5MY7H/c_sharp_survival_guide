@@ -4,9 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-namespace WeaponPack.Magic 
+namespace Section.Namespaces.WeaponPack.Magic 
 {
-    public class Namespace_Weapon : MonoBehaviour
+    public class Weapon : MonoBehaviour
     {
         // Start is called before the first frame update
         void Start()
