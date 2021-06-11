@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 namespace Section.Dictionaries.PrimitiveTypes
@@ -12,13 +11,13 @@ namespace Section.Dictionaries.PrimitiveTypes
         // Start is called before the first frame update
         void Start()
         {
-            people.Add("Jon", 36);
-            people.Add("Jame", 55);
-            people.Add("Rachel", 31);
-            people.Add("Yin", 34);
+            people.Add("Sarah", 31);
+            people.Add("Kelly", 47);
+            people.Add("John", 47);
+            people.Add("Linda", 47);
 
-            int rachelsAge = people["Rachel"];
-            Debug.Log("Rachel's Age: " + rachelsAge);
+            int lindasAge = people["Linda"];
+            Debug.Log("Linda's Age: " + lindasAge);
 
             books.Add(0, "The Ultimate Guide to Game Development with Unity");
             books.Add(1, "The Unity C# Survival Guide");
@@ -37,4 +36,3 @@ namespace Section.Dictionaries.PrimitiveTypes
         }
     }
 }
-
