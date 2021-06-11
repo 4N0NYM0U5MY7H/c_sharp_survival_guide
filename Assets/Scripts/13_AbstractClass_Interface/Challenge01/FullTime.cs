@@ -1,13 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
+﻿
 namespace Section.AbstractClass_Interface.Challenge01
 {
-    public class PartTime : Employee
+    public class FullTime : Employee
     {
-        public int hoursWorked;
-        public int hourlyRate;
+        public int salary;
 
         public override void CalculateMonthlySalary()
         {

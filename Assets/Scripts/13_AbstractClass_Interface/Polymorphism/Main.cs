@@ -1,8 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace Section.AbstractClass_Interface.GenericInterfaces
+namespace Section.AbstractClass_Interface.Polymorphism
 {
     public class Main : MonoBehaviour
     {
@@ -16,7 +14,7 @@ namespace Section.AbstractClass_Interface.GenericInterfaces
 
                 if (Physics.Raycast(rayOrigin, out hitInfo))
                 {
-                    IDamagable<int> obj = hitInfo.collider.GetComponent<IDamagable<int>>();
+                    IDamagable obj = hitInfo.collider.GetComponent<IDamagable>();
 
                     if (obj != null)
                     {

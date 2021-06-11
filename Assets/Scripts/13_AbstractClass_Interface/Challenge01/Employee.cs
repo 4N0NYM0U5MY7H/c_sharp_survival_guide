@@ -1,10 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Section.AbstractClass_Interface.Challenge01
 {
-    /// Challenge:
+    /// Challenge Overview:
     ///     create an abstract Employee class that defines the following traits:
     ///     Company Name
     ///     Employee Name
@@ -21,7 +19,7 @@ namespace Section.AbstractClass_Interface.Challenge01
 
     public abstract class Employee : MonoBehaviour
     {
-        public static string company = "GameDevHQ";
+        public static string company = "UNSC";
         public string employeeName;
 
         public abstract void CalculateMonthlySalary();
