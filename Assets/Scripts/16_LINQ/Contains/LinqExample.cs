@@ -5,7 +5,7 @@ namespace Section.LINQ.Contains
 {
     public class LinqExample : MonoBehaviour
     {
-        public string[] names = { "jon", "alex", "julie", "jessie", "david", "mark", "matt" };
+        public string[] names = { "sarah", "kelly", "john", "linda", "catherine", "cortana", "fred" };
 
         // Start is called before the first frame update
         void Start()

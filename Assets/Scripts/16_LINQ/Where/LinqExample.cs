@@ -5,7 +5,7 @@ namespace Section.LINQ.Where
 {
     public class LinqExample : MonoBehaviour
     {
-        public string[] names = { "jon", "jon", "alex", "julie", "alex", "julie", "jessie", "david", "mark", "matt", "batista" };
+        public string[] names = { "sarah", "kelly", "john", "linda", "catherine", "cortana", "fred" };
 
         // Start is called before the first frame update
         void Start()
