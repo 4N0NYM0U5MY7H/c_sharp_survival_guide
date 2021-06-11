@@ -1,20 +1,14 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace Section.DesignPatterns.ObjectPooling.Challenge02
+namespace Section.DesignPatterns.ObjectPooling.Challenge01
 {
     public class PoolManager : MonoBehaviour
     {
         /// Challenge:
-        /// Player communicates with the object pool system and requests a bullet.
-        /// Check for in-active bullet
-        ///     if found, set to active and return it to the player
-        ///     if no bullets available  (all bullets set active)
-        ///     generate x amount of bullets
-        ///     add them to the pool
-        ///     run the RequestBullet() method
-        ///     
+        /// Turn this class into a singleton for easy accessibility
+        /// Pre-generate a list of bullets using the bullet prefab
+        /// 
 
         private static PoolManager _instance;
         public static PoolManager Instance
@@ -58,25 +52,5 @@ namespace Section.DesignPatterns.ObjectPooling.Challenge02
             return _bulletPool;
         }
 
-        public GameObject RequestBullet()
-        {
-            /// loop through the bullet list
-            foreach(var bullet in _bulletPool)
-            {
-                if (bullet.activeInHierarchy == false)
-                {
-                    // bullet is available
-                    bullet.SetActive(true);
-                    return bullet;
-                }
-            }
-
-            // need to create a new bullet
-            GameObject newBullet = Instantiate(_bulletPrefab);
-            newBullet.transform.parent = _bulletContainer.transform;
-            _bulletPool.Add(newBullet);
-
-            return newBullet;
-        }
     }
 }
