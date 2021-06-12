@@ -13,6 +13,22 @@ The Ultimate Resource to help master C#
 </div>
 
 ---
+<!--
+Badges & Images
+-->
+[header-img]:.github/assets/readme-header.jpg
+[unity-badge]:https://img.shields.io/badge/UNITY-C%23-yellow?logo=unity&labelColor=black&style=for-the-badge
+[license-badge]:https://img.shields.io/github/license/parasiticfrisk/c-sharp-survival-guide?color=informational&style=for-the-badge
+[commit-badge]:https://img.shields.io/github/last-commit/parasiticfrisk/c-sharp-survival-guide?style=for-the-badge
+[clone-badge]:https://img.shields.io/badge/dynamic/json?color=informational&style=for-the-badge&label=Clone&query=count&url=https://github.com/parasiticfrisk/c-sharp-survival-guide/blob/main/clone.json?raw=True&logo=github
+
+<!--
+Quick Links
+-->
+[gdhq]:https://learn.gamedevhq.com/p/the-unity-c-survival-guide "GameDevHQ: Unity C# Suvival Guide"
+[unity]:https://unity3d.com/get-unity/download "Unity Game Engine"
+[&copy]:LICENSE "MIT License"
+[clone]:.github/workflows/clone-badge.yml "Clone Badge Workflow"
 
 ## Course Content
 
@@ -519,19 +535,25 @@ The Ultimate Resource to help master C#
 </details>
 <hr>
 
-<!--
-Badges & Images
--->
-[header-img]:.github/assets/readme-header.jpg
-[unity-badge]:https://img.shields.io/badge/UNITY-C%23-yellow?logo=unity&labelColor=black&style=for-the-badge
-[license-badge]:https://img.shields.io/github/license/parasiticfrisk/c-sharp-survival-guide?color=informational&style=for-the-badge
-[commit-badge]:https://img.shields.io/github/last-commit/parasiticfrisk/c-sharp-survival-guide?style=for-the-badge
-[clone-badge]:https://img.shields.io/badge/dynamic/json?color=informational&style=for-the-badge&label=Clone&query=count&url=https://github.com/parasiticfrisk/c-sharp-survival-guide/blob/main/clone.json?raw=True&logo=github
+### Disclaimer:
 
-<!--
-Quick Links
--->
-[gdhq]:https://learn.gamedevhq.com/p/the-unity-c-survival-guide "GameDevHQ: Unity C# Suvival Guide"
-[unity]:https://unity3d.com/get-unity/download "Unity Game Engine"
-[&copy]:LICENSE "MIT License"
-[clone]:.github/workflows/clone-badge.yml "Clone Badge Workflow"
+3D assets for this course were generously provided by GameDevHQ. However, this course and it's assets are no longer freely available on the Unity Learn platform. If you would like access to any of the assets used throughout this course, please purchase them from [GameDevHQ's Filebase][filebase].
+
+---
+The following Scenes will contain "Missing Prefabs" without the assets provided by GameDevHQ:
+
++ #### 07_Classes:
+  - Classes
+  - Custom Classes
+  
++ #### MiscUnityContent
+  - Pause Systems
+  - Post Processing Effects
+  - Destructable Crate
+  - Quaternion Look Rotation
+  - Quaternion Slerp
+
+If you do not wish to subscribe to GameDevHQ's filebase, feel free to search for alternative assets on sites such as [Kenny][kenny] to use in your scenes.
+
+[filebase]:https://filebase.gamedevhq.com/
+[kenny]:https://kenney.nl/assets
