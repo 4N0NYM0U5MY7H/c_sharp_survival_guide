@@ -96,16 +96,16 @@ The Ultimate Resource to help master C#
 
 <div align="center">
 
-| Loops                                     |
-| :---------------------------------------- |
-| [For Loops][lp01]                         |
-| [For Loops Understanding Continued][lp02] |
-| [Break Out of Loops][lp03]                |
-| [Example: For Loops Presentation][lp04]   |
-| [Do While Loop][lp05]                     |
-| [While Loop][lp06]                        |
-| [Challenge: Ultimate Print Outs][lp07]    |
-| [Challenge: How Fast Are You Going?][l08] |
+| Loops                                      |
+| :----------------------------------------- |
+| [For Loops][lp01]                          |
+| [For Loops Understanding Continued][lp02]  |
+| [Break Out of Loops][lp03]                 |
+| [Example: For Loops Presentation][lp04]    |
+| [Do While Loop][lp05]                      |
+| [While Loop][lp06]                         |
+| [Challenge: Ultimate Print Outs][lp07]     |
+| [Challenge: How Fast Are You Going?][lp08] |
 
 </div>
 
@@ -158,22 +158,21 @@ The Ultimate Resource to help master C#
 
 | Functions vs Methods                          |
 | :-------------------------------------------- |
-| [Fuctions vs Methods — Void][fm01]            |
-| [Method Parameters][fm02]                     |
-| [Challenge: Pass the Object with Color][fm03] |
-| [Return Type Functions][fm04]                 |
-| [Change Positions 4 Ways][fm05]               |
-| [Challenge: Are You Alive?][fm06]             |
-| [Practial Presentation: Return Array][fm07]   |
-| [Challenge: Position Matters][fm08]           |
+| [Method Parameters][fm01]                     |
+| [Challenge: Pass the Object with Color][fm02] |
+| [Return Type Functions][fm03]                 |
+| [Change Positions 4 Ways][fm04]               |
+| [Challenge: Are You Alive?][fm05]             |
+| [Practial Presentation: Return Array][fm06]   |
+| [Challenge: Position Matters][fm07]           |
 
 </div>
 
 ---
-[fm01]:Assets/Scripts/06_Functions_Methods/ChangePosition.cs
-[fm02]:Assets/Scripts/06_Functions_Methods/Parameters.cs
-[fm03]:Assets/Scripts/06_Functions_Methods/Challenge01
-[fm04]:Assets/Scripts/06_Functions_Methods/ReturnType.cs
+[fm01]:Assets/Scripts/06_Functions_Methods/Parameters.cs
+[fm02]:Assets/Scripts/06_Functions_Methods/Challenge01
+[fm03]:Assets/Scripts/06_Functions_Methods/ReturnType.cs
+[fm04]:Assets/Scripts/06_Functions_Methods/ChangePosition.cs
 [fm05]:Assets/Scripts/06_Functions_Methods/Challenge02
 [fm06]:Assets/Scripts/06_Functions_Methods/Presentations
 [fm07]:Assets/Scripts/06_Functions_Methods/Challenge03
