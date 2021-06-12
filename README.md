@@ -158,7 +158,7 @@ The Ultimate Resource to help master C#
 ---
 </details>
 <details>
-<summary><a href="Assets/Scipts/11_Lists">Lists</a></summary>
+<summary><a href="Assets/Scripts/11_Lists">Lists</a></summary>
 
 <table>
 <tr><td>Lists</td></tr>
@@ -228,7 +228,7 @@ The Ultimate Resource to help master C#
 ---
 </details>
 <details>
-<summary><a href="Assets/Scripts/LINQ">LINQ - Language-Integrated Query</a></summary>
+<summary><a href="Assets/Scripts/16_LINQ">LINQ - Language-Integrated Query</a></summary>
 
 <table>
 <tr><td>LINQ Introduction: Any</td></tr>
@@ -270,7 +270,7 @@ The Ultimate Resource to help master C#
 ---
 </details>
 <details>
-<summary><a href="Assets/Scripts/DesignPattern/19_CommandPattern">Design Patterns: Command Patern</a></summary>
+<summary><a href="Assets/Scripts/DesignPatterns/19_CommandPattern">Design Patterns: Command Patern</a></summary>
 
 <table>
 <tr><td>Command Pattern Implementation</td></tr>
