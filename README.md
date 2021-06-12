@@ -539,6 +539,8 @@ Quick Links
 
 3D assets for this course were generously provided by GameDevHQ. However, this course and it's assets are no longer freely available on the Unity Learn platform. If you would like access to any of the assets used throughout this course, please purchase them from [GameDevHQ's Filebase][filebase].
 
+If you do not wish to subscribe to GameDevHQ's filebase, feel free to search for alternative assets on sites such as [Kenny][kenny] to use in your scenes.
+
 ---
 The following Scenes will contain "Missing Prefabs" without the assets provided by GameDevHQ:
 
@@ -552,8 +554,6 @@ The following Scenes will contain "Missing Prefabs" without the assets provided 
   - Destructable Crate
   - Quaternion Look Rotation
   - Quaternion Slerp
-
-If you do not wish to subscribe to GameDevHQ's filebase, feel free to search for alternative assets on sites such as [Kenny][kenny] to use in your scenes.
 
 [filebase]:https://filebase.gamedevhq.com/
 [kenny]:https://kenney.nl/assets
