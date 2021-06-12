@@ -17,7 +17,7 @@ The Ultimate Resource to help master C#
 ## Course Content
 
 <details>
-<summary>Variables</summary>
+<summary><a href="Assets/Scripts/01_Variables">Variables</a></summary>
 
 <table>
 <tr><td>Variables</td></tr>
@@ -31,7 +31,7 @@ The Ultimate Resource to help master C#
 ---
 </details>
 <details>
-<summary>If-Then Logic</summary>
+<summary><a href="Assets/Scripts/02_If-Then">If-Then Logic</a></summary>
 
 <table>
 <tr><td>If-Statements</td></tr>
@@ -47,7 +47,7 @@ The Ultimate Resource to help master C#
 ---
 </details>
 <details>
-<summary>Switch Statements</summary>
+<summary><a href="Assets/Scripts/03_Switch">Switch Statements</a></summary>
 
 <table>
 <tr><td>Switch Statements</td></tr>
@@ -59,7 +59,7 @@ The Ultimate Resource to help master C#
 ---
 </details>
 <details>
-<summary>Loops</summary>
+<summary><a href="Assets/Scripts/04_Loops">Loops</a></summary>
 
 <table>
 <tr><td>For Loops</td></tr>
@@ -75,7 +75,7 @@ The Ultimate Resource to help master C#
 ---
 </details>
 <details>
-<summary>Arrays</summary>
+<summary><a href="Assets/Scripts/05_Arrays">Arrays</a></summary>
 
 <table>
 <tr><td>Array Syntax</td></tr>
@@ -90,7 +90,7 @@ The Ultimate Resource to help master C#
 ---
 </details>
 <details>
-<summary>Functions vs Methods</summary>
+<summary><a href="Assets/Scripts/06_Functions_Methods">Functions vs Methods</a></summary>
 
 <table>
 <tr><td>Fuctions vs Methods Void</td></tr>
@@ -106,7 +106,7 @@ The Ultimate Resource to help master C#
 ---
 </details>
 <details>
-<summary>Classes</summary>
+<summary><a href="Assets/Scripts/07_Classes">Classes</a></summary>
 
 <table>
 <tr><td>Classes for Behaviors</td></tr>
@@ -124,7 +124,7 @@ The Ultimate Resource to help master C#
 ---
 </details>
 <details>
-<summary>Static Types</summary>
+<summary><a href="Assets/Scripts/08_StaticTypes">Static Types</a></summary>
 
 <table>
 <tr><td>Declaring Static Types</td></tr>
@@ -138,7 +138,7 @@ The Ultimate Resource to help master C#
 ---
 </details>
 <details>
-<summary>Properties</summary>
+<summary><a href="Assets/Scripts/09_Properties">Properties</a></summary>
 
 <table>
 <tr><td>Properties</td></tr>
@@ -149,7 +149,7 @@ The Ultimate Resource to help master C#
 ---
 </details>
 <details>
-<summary>Namespaces</summary>
+<summary><a href="Assets/Scripts/10_Namespaces">Namespaces</a></summary>
 
 <table>
 <tr><td>Namespaces</td></tr>
@@ -158,7 +158,7 @@ The Ultimate Resource to help master C#
 ---
 </details>
 <details>
-<summary>Lists</summary>
+<summary><a href="Assets/Scipts/11_Lists">Lists</a></summary>
 
 <table>
 <tr><td>Lists</td></tr>
@@ -170,7 +170,7 @@ The Ultimate Resource to help master C#
 ---
 </details>
 <details>
-<summary>Enums</summary>
+<summary><a href="Assets/Scripts/12_Enums">Enums</a></summary>
 
 <table>
 <tr><td>Enums</td></tr>
@@ -182,7 +182,7 @@ The Ultimate Resource to help master C#
 ---
 </details>
 <details>
-<summary>Dictionaries</summary>
+<summary><a href="Assets/Scripts/13_Dictionaries">Dictionaries</a></summary>
 
 <table>
 <tr><td>Dictionary</td></tr>
@@ -194,7 +194,7 @@ The Ultimate Resource to help master C#
 ---
 </details>
 <details>
-<summary>Abstract Classes & Interfaces</summary>
+<summary><a href="Assets/Scripts/14_AbstractClass_Interface">Abstract Classes & Interfaces</a></summary>
 
 <table>
 <tr><td>Abstract Class and Methods</td></tr>
@@ -207,7 +207,7 @@ The Ultimate Resource to help master C#
 ---
 </details>
 <details>
-<summary>Delegates & Events</summary>
+<summary><a href="Assets/Scripts/15_Delegates_Events">Delegates & Events</a></summary>
 
 <table>
 <tr><td>Delegates</td></tr>
@@ -228,7 +228,7 @@ The Ultimate Resource to help master C#
 ---
 </details>
 <details>
-<summary>LINQ - Language-Integrated Query</summary>
+<summary><a href="Assets/Scripts/LINQ">LINQ - Language-Integrated Query</a></summary>
 
 <table>
 <tr><td>LINQ Introduction: Any</td></tr>
@@ -244,7 +244,7 @@ The Ultimate Resource to help master C#
 ---
 </details>
 <details>
-<summary>Design Patterns: Singleton</summary>
+<summary><a href="Assets/Scripts/DesignPatterns/17_Singleton">Design Patterns: Singleton</a></summary>
 
 <table>
 <tr><td>Singleton Design Pattern</td></tr>
@@ -258,7 +258,7 @@ The Ultimate Resource to help master C#
 ---
 </details>
 <details>
-<summary>Design Patterns: Object Pooling</summary>
+<summary><a href="Assets/Scripts/DesignPatterns/18_ObjectPooling">Design Patterns: Object Pooling</a></summary>
 
 <table>
 <tr><td>Object Pooling Design Pattern</td></tr>
@@ -270,7 +270,7 @@ The Ultimate Resource to help master C#
 ---
 </details>
 <details>
-<summary>Design Patterns: Command Patern</summary>
+<summary><a href="Assets/Scripts/DesignPattern/19_CommandPattern">Design Patterns: Command Patern</a></summary>
 
 <table>
 <tr><td>Command Pattern Implementation</td></tr>
@@ -282,7 +282,7 @@ The Ultimate Resource to help master C#
 ---
 </details>
 <details>
-<summary>Misc. Unity Content</summary>
+<summary><a href="Assets/Scripts/MiscUnityContent">Misc. Unity Content</a></summary>
 
 <table>
 <tr><td>Change GameObject Position</td></tr>
