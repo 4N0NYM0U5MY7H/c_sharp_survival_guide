@@ -2,8 +2,11 @@
 
 # GameDevHQ: Unity C# Suvival Guide
 
-[![engine][unity-badge]][unity]
-[![license][license-badge]][&copy]
+[![Course badge]][Course link]
+[![License badge]][Repository license]
+![Unity badge](https://img.shields.io/badge/Unity-000?logo=unity&labelColor=000&style=flat-square)
+![C# badge](https://img.shields.io/badge/C_Sharp-000?logo=CSharp&logoColor=239120&style=flat-square)
+![Maintenance badge](https://img.shields.io/maintenance/no/2021?style=flat-square)
 
 </div>
 <br>
@@ -17,128 +20,129 @@ The course progresses in difficulty, and upon completion, you will have gone fro
 
 <br>
 
-|                                                   |                                                               |                                                   |                                         |
-| :------------------------------------------------ | :------------------------------------------------------------ | :------------------------------------------------ | :-------------------------------------- |
-| <h1>Unity Quick Tips</h1>                         |                                                               |                                                   |                                         |
-| <h2>Topic</h2>                                    | <h2>Code</h2>                                                 | <h2>Presentation(s)</h2>                          | <h2>Challenge(s)</h2>                   |
-| <h3>[Misc. Unity Content][uc00]</h3>              | [Change GameObject Position][uc01]                            |                                                   |                                         |
-|                                                   | [User Input][uc02]                                            |                                                   |                                         |
-|                                                   | [Simple Movement][uc03]                                       |                                                   |                                         |
-|                                                   | [Collectable GameObjects][uc04]                               |                                                   |                                         |
-|                                                   | [Pause Systems][uc05]                                         |                                                   |                                         |
-|                                                   | [Destructable Crate][uc06]                                    |                                                   |                                         |
-|                                                   | [Quaternion and Euler Angles][uc07]                           |                                                   |                                         |
-|                                                   | [Quaternion Look Rotation][uc08]                              |                                                   |                                         |
-|                                                   | [Quaternion Slerp][uc09]                                      |                                                   |                                         |
-|                                                   |                                                               |                                                   |                                         |
-| <h1>Beginner C#</h1>                              |                                                               |                                                   |                                         |
-| <h2>Topic</h2>                                    | <h2>Code</h2>                                                 | <h2>Presentation(s)</h2>                          | <h2>Challenge(s)</h2>                   |
-| <h3>[Variables][v00]</h3>                         | [Variables][v01]                                              |                                                   | [Master Variables—part 1][v03]          |
-|                                                   | [Common Data Types][v02]                                      |                                                   | [Master Variables—part 2][v04]          |
-|                                                   |                                                               |                                                   | [Tip Calculator][v05]                   |
-|                                                   |                                                               |                                                   | [Quiz Grade Average][v06]               |
-|                                                   |                                                               |                                                   |                                         |
-| <h3>[If-Then Logic][i00]</h3>                     | [If-Statements][i01]                                          |                                                   | [Master If-Statements—part 1][i02]      |
-|                                                   | [Else-If Statements][i05]                                     |                                                   | [Master If-Statements—part 2][i03]      |
-|                                                   |                                                               |                                                   | [Master If-Statements—part 3][i04]      |
-|                                                   |                                                               |                                                   | [Quiz Grades][i06]                      |
-|                                                   |                                                               |                                                   | [Master If-Statements—part 4][i07]      |
-|                                                   |                                                               |                                                   | [Speed Program][i08]                    |
-|                                                   |                                                               |                                                   |                                         |
-| <h3>[Switch Statements][sw00]</h3>                | [Switch Statements][sw01]                                     |                                                   | [Master Switch Statements—part 1][sw02] |
-|                                                   |                                                               |                                                   | [Master Switch Statements—part 2][sw03] |
-|                                                   |                                                               |                                                   | [Weapon Select Program][sw04]           |
-|                                                   |                                                               |                                                   |                                         |
-| <h3>[Loops][lp00]</h3>                            | [For Loops][lp01]                                             | [For Loops Presentation][lp04]                    | [Ultimate Print Outs][lp07]             |
-|                                                   | [For Loops Understanding Continued][lp02]                     |                                                   | [How Fast Are You Going?][lp08]         |
-|                                                   | [Break Out of Loops][lp03]                                    |                                                   |                                         |
-|                                                   | [Do While Loop][lp05]                                         |                                                   |                                         |
-|                                                   | [While Loop][lp06]                                            |                                                   |                                         |
-|                                                   |                                                               |                                                   |                                         |
-| <h3>[Arrays][ar00]</h3>                           | [Array Syntax][ar01]                                          | [Looping Through Data][ar07]                      | [Array Master][ar03]                    |
-|                                                   | [Access Array Elements][ar02]                                 | [Looping Practical Example][ar08]                 | [Randomly Choose One][ar04]             |
-|                                                   | [Print All Elements Using For Loops][ar05]                    |                                                   | [Convert to For Loop][ar09]             |
-|                                                   | [Print All Elements Uisng Foreach Loops][ar06]                |                                                   |                                         |
-|                                                   |                                                               |                                                   |                                         |
-| <h3>[Functions vs Methods][fm00]</h3>             | [Method Parameters][fm01]                                     | [Return Array][fm06]                              | [Pass the Object with Color][fm02]      |
-|                                                   | [Return Type Functions][fm03]                                 |                                                   | [Are You Alive?][fm05]                  |
-|                                                   | [Change Positions 4 Ways][fm04]                               |                                                   | [Position Matters][fm07]                |
-|                                                   |                                                               |                                                   |                                         |
-| <h3>[Classes][cl00]</h3>                          | [Classes for Behaviors][cl01]                                 | [Serialized Custom Class RPG Item Database][cl03] | [Customer Database][cl04]               |
-|                                                   | [Class Inheritence][cl06]                                     | [RPG Spell System][cl05]                          |                                         |
-|                                                   | [Virtual Methods and Overriding][cl08]                        | [Bank System Inheritence][cl07]                   |                                         |
-|                                                   | [Structs, Memory Management, Value & Reference Types][cl09]   |                                                   |                                         |
-|                                                   |                                                               |                                                   |                                         |
-| <h3>[Static Types][st00]</h3>                     | [Declaring Static Types][st01]                                | [Working with Static Types][st03]                 | [Random Color Helpers][st05]            |
-|                                                   | [Instance Members vs Static Members][st02]                    |                                                   |                                         |
-|                                                   | [Utility Helper Classes][st04]                                |                                                   |                                         |
-|                                                   | [Initializing Static Members with a Static Constructor][st06] |                                                   |                                         |
-|                                                   |                                                               |                                                   |                                         |
-| <h1>Intermediate C#</h1>                          |                                                               |                                                   |                                         |
-| <h2>Topic</h2>                                    | <h2>Code</h2>                                                 | <h2>Presentation(s)</h2>                          | <h2>Challenge(s)</h2>                   |
-| <h3>[Properties][p00]</h3>                        | [Properties][p01]                                             |                                                   | [Declaring Properties][p03]             |
-|                                                   | [Auto Properties][p02]                                        |                                                   |                                         |
-|                                                   |                                                               |                                                   |                                         |
-| <h3>[Namespaces][ns00]</h3>                       | [Namespaces][ns01]                                            |                                                   |                                         |
-|                                                   |                                                               |                                                   |                                         |
-| <h3>[Lists][li00]</h3>                            | [Lists][li01]                                                 | [Creating Inventory Item DB Systems][li04]        | [You Have Been Named][li02]             |
-|                                                   |                                                               |                                                   | [Build That Object List][li03]          |
-|                                                   |                                                               |                                                   |                                         |
-| <h3>[Enums][en00]</h3>                            | [Enums][en01]                                                 |                                                   |                                         |
-|                                                   | [Enum Enemy AI][en02]                                         |                                                   |                                         |
-|                                                   | [Enums in Custom Classes][en03]                               |                                                   |                                         |
-|                                                   | [Casting Enums to Ints][en04]                                 |                                                   |                                         |
-|                                                   |                                                               |                                                   |                                         |
-| <h3>[Dictionaries][d00]</h3>                      | [Dictionary][d01]                                             |                                                   |                                         |
-|                                                   | [Looping Through Dictionary][d02]                             |                                                   |                                         |
-|                                                   | [Dictionary for Player Connections][d03]                      |                                                   |                                         |
-|                                                   | [Dictionary with Primitive Types][d04]                        |                                                   |                                         |
-| <h1>Advanced C#</h1>                              |                                                               |                                                   |                                         |
-| <h2>Topic</h2>                                    | <h2>Code</h2>                                                 | <h2>Presentation(s)</h2>                          | <h2>Challenge(s)</h2>                   |
-| <h3>[Abtract Classes &amp; Interfaces][ac00]</h3> | [Abstract Class and Methods][ac01]                            |                                                   | [Employee Experience][ac02]             |
-|                                                   | [Interfaces Made Easy][ac03]                                  |                                                   |                                         |
-|                                                   | [What is Polymorphism?][ac04]                                 |                                                   |                                         |
-|                                                   | [Generic Interfaces][ac05]                                    |                                                   |                                         |
-|                                                   |                                                               |                                                   |                                         |
-| <h3>[Delegates &amp; Events][de00]</h3>           | [Delegates][de01]                                             | [Working with Delegates and Events][de03]         | [Teleport Events][de04]                 |
-|                                                   | [Events][de02]                                                | [Practical Event Driven Programming][de05]        |                                         |
-|                                                   | [Actions][de06]                                               |                                                   |                                         |
-|                                                   | [Return Type Delegates and Func][de07]                        |                                                   |                                         |
-|                                                   | [Lambda Expressions][de08]                                    |                                                   |                                         |
-|                                                   | [Void Delegates with Parameters][de09]                        |                                                   |                                         |
-|                                                   | [Void Delegates with No Parameters][de10]                     |                                                   |                                         |
-|                                                   | [Return Delegates with No Parameters][de11]                   |                                                   |                                         |
-|                                                   | [Return Delegates with Parameters][de12]                      |                                                   |                                         |
-|                                                   | [Simple Callback System][de13]                                |                                                   |                                         |
-|                                                   |                                                               |                                                   |                                         |
-| <h3>[LINQ—Language-Integrated Query][ln00]</h3>   | [LINQ Introduction: Any][ln01]                                |                                                   | [Hands on with LINQ][ln05]              |
-|                                                   | [LINQ: Contains][ln02]                                        |                                                   | [Filter Items][ln07]                    |
-|                                                   | [LINQ: Distinct][ln03]                                        |                                                   |                                         |
-|                                                   | [LINQ: Where][ln04]                                           |                                                   |                                         |
-|                                                   | [LINQ: Order by Decending][ln06]                              |                                                   |                                         |
-|                                                   | [How to Read and Convert Query Syntax][ln08]                  |                                                   |                                         |
-|                                                   |                                                               |                                                   |                                         |
-| <h3>[Design Patterns: Singleton][sn00]</h3>       | [Singleton Design Pattern][sn01]                              |                                                   | [Singleton Spawn Manager][sn03]         |
-|                                                   | [Singleton UI Manager][sn02]                                  |                                                   |                                         |
-|                                                   | [Singleton Lazy Instantiation][sn04]                          |                                                   |                                         |
-|                                                   | [Downside of Lazy Instantiation][sn05]                        |                                                   |                                         |
-|                                                   | [MonoSingleton][sn06]                                         |                                                   |                                         |
-|                                                   |                                                               |                                                   |                                         |
-| <h3>[Design Patterns: Object Pool][op00]</h3>     | [Object Pooling Design Pattern][op01]                         |                                                   | [Pool Manager][op02]                    |
-|                                                   |                                                               |                                                   | [Request from Pool Manager][op03]       |
-|                                                   |                                                               |                                                   | [Recycle the Pool][op04]                |
-|                                                   |                                                               |                                                   |                                         |
-| <h3>[Design Patterns: Command Pattern][cp00]</h3> | [Command Pattern Implementation][cp01]                        | [Practical Command Pattern][cp03]                 | [The Command Manager][cp02]             |
-|                                                   |                                                               |                                                   |                                         |
+|                                             |                                                          |                                             |                                    |
+| :------------------------------------------ | :------------------------------------------------------- | :------------------------------------------ | :--------------------------------- |
+| <h1>Unity Quick Tips</h1>                   |                                                          |                                             |                                    |
+| <h2>Topic</h2>                              | <h2>Code</h2>                                            | <h2>Presentation(s)</h2>                    | <h2>Challenge(s)</h2>              |
+| <h3>[Misc. Unity Content]</h3>              | [Change GameObject Position]                             |                                             |                                    |
+|                                             | [User Input]                                             |                                             |                                    |
+|                                             | [Simple Movement]                                        |                                             |                                    |
+|                                             | [Collectable GameObjects]                                |                                             |                                    |
+|                                             | [Pause Systems]                                          |                                             |                                    |
+|                                             | [Destructable Crate]                                     |                                             |                                    |
+|                                             | [Quaternion and Euler Angles]                            |                                             |                                    |
+|                                             | [Quaternion Look Rotation]                               |                                             |                                    |
+|                                             | [Quaternion Slerp]                                       |                                             |                                    |
+|                                             |                                                          |                                             |                                    |
+| <h1>Beginner C#</h1>                        |                                                          |                                             |                                    |
+| <h2>Topic</h2>                              | <h2>Code</h2>                                            | <h2>Presentation(s)</h2>                    | <h2>Challenge(s)</h2>              |
+| <h3>[Variables]</h3>                        | [Variables][Hands on variables]                          |                                             | [Master Variables, part 1]         |
+|                                             | [Common Data Types]                                      |                                             | [Master Variables, part 2]         |
+|                                             |                                                          |                                             | [Tip Calculator]                   |
+|                                             |                                                          |                                             | [Quiz Grade Average]               |
+|                                             |                                                          |                                             |                                    |
+| <h3>[If-Then Logic]</h3>                    | [If-Statements]                                          |                                             | [Master If-Statements, part 1]     |
+|                                             | [Else-If Statements]                                     |                                             | [Master If-Statements, part 2]     |
+|                                             |                                                          |                                             | [Master If-Statements, part 3]     |
+|                                             |                                                          |                                             | [Quiz Grades]                      |
+|                                             |                                                          |                                             | [Master If-Statements, part 4]     |
+|                                             |                                                          |                                             | [Speed Program]                    |
+|                                             |                                                          |                                             |                                    |
+| <h3>[Switch Statements]</h3>                | [Switch Statements][Hands on switch statements]          |                                             | [Master Switch Statements, part 1] |
+|                                             |                                                          |                                             | [Master Switch Statements, part 2] |
+|                                             |                                                          |                                             | [Weapon Select Program]            |
+|                                             |                                                          |                                             |                                    |
+| <h3>[Loops]</h3>                            | [For Loops]                                              | [For Loops Presentation]                    | [Ultimate Print Outs]              |
+|                                             | [For Loops, continued]                                   |                                             | [How Fast Are You Going?]          |
+|                                             | [Break Out of Loops]                                     |                                             |                                    |
+|                                             | [Do While Loop]                                          |                                             |                                    |
+|                                             | [While Loop]                                             |                                             |                                    |
+|                                             |                                                          |                                             |                                    |
+| <h3>[Arrays]</h3>                           | [Array Syntax]                                           | [Looping Through Data]                      | [Array Master]                     |
+|                                             | [Access Array Elements]                                  | [Looping Practical Example]                 | [Randomly Choose One]              |
+|                                             | [Print All Elements Using For Loops]                     |                                             | [Convert to Foreach Loop]          |
+|                                             | [Print All Elements Using Foreach Loops]                 |                                             |                                    |
+|                                             |                                                          |                                             |                                    |
+| <h3>[Functions vs Methods]</h3>             | [Method Parameters]                                      | [Return Array]                              | [Pass the Object with Color]       |
+|                                             | [Return Type Functions]                                  |                                             | [Are You Alive?]                   |
+|                                             | [Change Positions 4 Ways]                                |                                             | [Position Matters]                 |
+|                                             |                                                          |                                             |                                    |
+| <h3>[Classes]</h3>                          | [Classes for Behaviors]                                  | [Serialized Custom Class RPG Item Database] | [Customer Database]                |
+|                                             | [Custom Classes]                                         | [RPG Spell System]                          |                                    |
+|                                             | [Class Inheritence]                                      | [Bank System Inheritence]                   |                                    |
+|                                             | [Virtual Methods and Overriding]                         |                                             |                                    |
+|                                             | [Structs, Memory Management, Values and Reference Types] |                                             |                                    |
+|                                             |                                                          |                                             |                                    |
+| <h3>[Static Types]</h3>                     | [Declaring Static Types]                                 | [Working with Static Types]                 | [Random Color Helpers]             |
+|                                             | [Instance Members vs Static Members]                     |                                             |                                    |
+|                                             | [Utility Helper Classes]                                 |                                             |                                    |
+|                                             | [Initializing Static Members with a Static Constructor]  |                                             |                                    |
+|                                             |                                                          |                                             |                                    |
+| <h1>Intermediate C#</h1>                    |                                                          |                                             |                                    |
+| <h2>Topic</h2>                              | <h2>Code</h2>                                            | <h2>Presentation(s)</h2>                    | <h2>Challenge(s)</h2>              |
+| <h3>[Properties]</h3>                       | [Properties][Hands on properties]                        |                                             | [Declaring Properties]             |
+|                                             | [Auto Properties]                                        |                                             |                                    |
+|                                             |                                                          |                                             |                                    |
+| <h3>[Namespaces]</h3>                       | [Namespaces][Hands on namespaces]                        |                                             |                                    |
+|                                             |                                                          |                                             |                                    |
+| <h3>[Lists]</h3>                            | [Lists][Hands on lists]                                  | [Creating Inventory Item DB Systems]        | [You Have Been Named]              |
+|                                             |                                                          |                                             | [Build That Object List]           |
+|                                             |                                                          |                                             |                                    |
+| <h3>[Enums]</h3>                            | [Enums][Hands on enums]                                  |                                             |                                    |
+|                                             | [Enum Enemy AI]                                          |                                             |                                    |
+|                                             | [Enums in Custom Classes]                                |                                             |                                    |
+|                                             | [Casting Enums to Ints]                                  |                                             |                                    |
+|                                             |                                                          |                                             |                                    |
+| <h3>[Dictionaries]</h3>                     | [Dictionary]                                             |                                             |                                    |
+|                                             | [Looping Through Dictionary]                             |                                             |                                    |
+|                                             | [Dictionary for Player Connections]                      |                                             |                                    |
+|                                             | [Dictionary with Primitive Types]                        |                                             |                                    |
+| <h1>Advanced C#</h1>                        |                                                          |                                             |                                    |
+| <h2>Topic</h2>                              | <h2>Code</h2>                                            | <h2>Presentation(s)</h2>                    | <h2>Challenge(s)</h2>              |
+| <h3>[Abtract Classes and Interfaces]</h3>   | [Abstract Class and Methods]                             |                                             | [Employee Experience]              |
+|                                             | [Interfaces Made Easy]                                   |                                             |                                    |
+|                                             | [What is Polymorphism?]                                  |                                             |                                    |
+|                                             | [Generic Interfaces]                                     |                                             |                                    |
+|                                             |                                                          |                                             |                                    |
+| <h3>[Delegates and Events]</h3>             | [Delegates]                                              | [Working with Delegates and Events]         | [Teleport Events]                  |
+|                                             | [Events]                                                 | [Practical Event Driven Programming]        |                                    |
+|                                             | [Actions]                                                |                                             |                                    |
+|                                             | [Return Type Delegates and Func]                         |                                             |                                    |
+|                                             | [Lambda Expressions]                                     |                                             |                                    |
+|                                             | [Void Delegates with Parameters]                         |                                             |                                    |
+|                                             | [Void Delegates with No Parameters]                      |                                             |                                    |
+|                                             | [Return Delegates with No Parameters]                    |                                             |                                    |
+|                                             | [Return Delegates with Parameters]                       |                                             |                                    |
+|                                             | [Simple Callback System]                                 |                                             |                                    |
+|                                             |                                                          |                                             |                                    |
+| <h3>[LINQ: Language-Integrated Query]</h3>  | [LINQ Introduction: Any]                                 |                                             | [Hands on with LINQ]               |
+|                                             | [LINQ: Contains]                                         |                                             | [Filter Items]                     |
+|                                             | [LINQ: Distinct]                                         |                                             |                                    |
+|                                             | [LINQ: Where]                                            |                                             |                                    |
+|                                             | [LINQ: Order by Decending]                               |                                             |                                    |
+|                                             | [How to Read and Convert Query Syntax]                   |                                             |                                    |
+|                                             |                                                          |                                             |                                    |
+| <h3>[Design Patterns: Singleton]</h3>       | [Singleton Design Pattern]                               |                                             | [Singleton Spawn Manager]          |
+|                                             | [Singleton UI Manager]                                   |                                             |                                    |
+|                                             | [Singleton Lazy Instantiation]                           |                                             |                                    |
+|                                             | [Downside of Lazy Instantiation]                         |                                             |                                    |
+|                                             | [MonoSingleton]                                          |                                             |                                    |
+|                                             |                                                          |                                             |                                    |
+| <h3>[Design Patterns: Object Pool]</h3>     | [Object Pooling Design Pattern]                          |                                             | [Pool Manager]                     |
+|                                             |                                                          |                                             | [Request from Pool Manager]        |
+|                                             |                                                          |                                             | [Recycle the Pool]                 |
+|                                             |                                                          |                                             |                                    |
+| <h3>[Design Patterns: Command Pattern]</h3> | [Command Pattern Implementation]                         | [Practical Command Pattern]                 | [The Command Manager]              |
+|                                             |                                                          |                                             |                                    |
 
 <br>
 <hr>
 
 ### Note:
 
-3D assets for this course were generously provided by GameDevHQ. However, this course and it's assets are no longer freely available on the Unity Learn platform. If you would like access to any of the assets used throughout this course, please purchase them from [GameDevHQ's Filebase][filebase].
+3D assets for this course were generously provided by GameDevHQ. However, this course and it's assets are no longer freely available on the Unity Learn platform. If you would like access to any of the assets used throughout this course, please purchase them from [GameDevHQ's Filebase].
 
-If you do not wish to subscribe to GameDevHQ's filebase, feel free to search for alternative assets on sites such as [Kenny][kenny] to use in your scenes.
+If you do not wish to subscribe to GameDevHQ's filebase, feel free to search for alternative assets on sites such as [Kenny] to use in your scenes.
 
 ---
 The following Scenes will contain "Missing Prefabs" without the assets provided by GameDevHQ:
@@ -160,171 +164,171 @@ The following Scenes will contain "Missing Prefabs" without the assets provided 
 
 <!-- Quick Links -->
 <!-- Badge Info -->
-[unity-badge]:https://img.shields.io/badge/UNITY-C%23-yellow?logo=unity&labelColor=black&style=for-the-badge
-[license-badge]:https://img.shields.io/github/license/parasiticfrisk/c-sharp-survival-guide?color=informational&style=for-the-badge
-[unity]:https://unity3d.com/get-unity/download "Unity Game Engine"
-[&copy]:LICENSE "MIT License"
+[Course badge]:https://img.shields.io/badge/GameDevHQ-C%23_Survival_Guide-F19A37?style=flat-square&labelColor=2794A8&logo=data:image/png;base64,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
+[Course link]:https://learn.gamedevhq.com/p/the-unity-c-survival-guide
+[License badge]:https://img.shields.io/github/license/parasiticfrisk/c-sharp-survival-guide?color=informational&style=flat-square
+[Repository license]:LICENSE
 <!-- Resources -->
-[filebase]:https://filebase.gamedevhq.com/
-[kenny]:https://kenney.nl/assets
+[GameDevHQ's Filebase]:https://filebase.gamedevhq.com/
+[Kenny]:https://kenney.nl/assets
 <!-- Variables -->
-[v00]:Assets/Scripts/01_Variables
-[v01]:Assets/Scripts/01_Variables/Variables.cs
-[v02]:Assets/Scripts/01_Variables/CommonDataTypes.cs
-[v03]:Assets/Scripts/01_Variables/Challenge01
-[v04]:Assets/Scripts/01_Variables/Challenge02
-[v05]:Assets/Scripts/01_Variables/Challenge03
-[v06]:Assets/Scripts/01_Variables/Challenge04
+[Variables]:Assets/Scripts/01_Variables
+[Hands on variables]:Assets/Scripts/01_Variables/Variables.cs
+[Common Data Types]:Assets/Scripts/01_Variables/CommonDataTypes.cs
+[Master Variables, part 1]:Assets/Scripts/01_Variables/Challenge01
+[Master Variables, part 2]:Assets/Scripts/01_Variables/Challenge02
+[Tip Calculator]:Assets/Scripts/01_Variables/Challenge03
+[Quiz Grade Average]:Assets/Scripts/01_Variables/Challenge04
 <!-- If-Then Logic -->
-[i00]:Assets/Scripts/02_If-Then
-[i01]:Assets/Scripts/02_If-Then/Player_If.cs
-[i02]:Assets/Scripts/02_If-Then/Challenge01
-[i03]:Assets/Scripts/02_If-Then/Challenge02
-[i04]:Assets/Scripts/02_If-Then/Challenge03
-[i05]:Assets/Scripts/02_If-Then/Player_ElseIf.cs
-[i06]:Assets/Scripts/02_If-Then/Challenge04
-[i07]:Assets/Scripts/02_If-Then/Challenge05
-[i08]:Assets/Scripts/02_If-Then/Challenge06
+[If-Then Logic]:Assets/Scripts/02_If-Then
+[If-Statements]:Assets/Scripts/02_If-Then/Player_If.cs
+[Master If-Statements, part 1]:Assets/Scripts/02_If-Then/Challenge01
+[Master If-Statements, part 2]:Assets/Scripts/02_If-Then/Challenge02
+[Master If-Statements, part 3]:Assets/Scripts/02_If-Then/Challenge03
+[Else-If Statements]:Assets/Scripts/02_If-Then/Player_ElseIf.cs
+[Quiz Grades]:Assets/Scripts/02_If-Then/Challenge04
+[Master If-Statements, part 4]:Assets/Scripts/02_If-Then/Challenge05
+[Speed Program]:Assets/Scripts/02_If-Then/Challenge06
 <!-- Switch Statements -->
-[sw00]:Assets/Scripts/03_Switch
-[sw01]:Assets/Scripts/03_Switch/Switch.cs
-[sw02]:Assets/Scripts/03_Switch/Challenge01
-[sw03]:Assets/Scripts/03_Switch/Challenge02
-[sw04]:Assets/Scripts/03_Switch/Challenge03
+[Switch Statements]:Assets/Scripts/03_Switch
+[Hands on switch statements]:Assets/Scripts/03_Switch/Switch.cs
+[Master Switch Statements, part 1]:Assets/Scripts/03_Switch/Challenge01
+[Master Switch Statements, part 2]:Assets/Scripts/03_Switch/Challenge02
+[Weapon Select Program]:Assets/Scripts/03_Switch/Challenge03
 <!-- Loops -->
-[lp00]:Assets/Scripts/04_Loops
-[lp01]:Assets/Scripts/04_Loops/ForLoops_01.cs
-[lp02]:Assets/Scripts/04_Loops/ForLoops_02.cs
-[lp03]:Assets/Scripts/04_Loops/LoopBreak.cs
-[lp04]:Assets/Scripts/04_Loops/Presentations
-[lp05]:Assets/Scripts/04_Loops/DoWhile.cs
-[lp06]:Assets/Scripts/04_Loops/WhileLoop.cs
-[lp07]:Assets/Scripts/04_Loops/Challenge01
-[lp08]:Assets/Scripts/04_Loops/Challenge02
+[Loops]:Assets/Scripts/04_Loops
+[For Loops]:Assets/Scripts/04_Loops/ForLoops_01.cs
+[For Loops, continued]:Assets/Scripts/04_Loops/ForLoops_02.cs
+[Break Out of Loops]:Assets/Scripts/04_Loops/LoopBreak.cs
+[For Loops Presentation]:Assets/Scripts/04_Loops/Presentations
+[Do While Loop]:Assets/Scripts/04_Loops/DoWhile.cs
+[While Loop]:Assets/Scripts/04_Loops/WhileLoop.cs
+[Ultimate Print Outs]:Assets/Scripts/04_Loops/Challenge01
+[How Fast Are You Going?]:Assets/Scripts/04_Loops/Challenge02
 <!-- Arrays -->
-[ar00]:Assets/Scripts/05_Arrays
-[ar01]:Assets/Scripts/05_Arrays/Syntax.cs
-[ar02]:Assets/Scripts/05_Arrays/Elements.cs
-[ar03]:Assets/Scripts/05_Arrays/Challenge01
-[ar04]:Assets/Scripts/05_Arrays/Challenge02
-[ar05]:Assets/Scripts/05_Arrays/PrintArray_01.cs
-[ar06]:Assets/Scripts/05_Arrays/PrintArray_02.cs
-[ar07]:Assets/Scripts/05_Arrays/Presentations
-[ar08]:Assets/Scripts/05_Arrays/PracticalExample_01.cs
-[ar09]:Assets/Scripts/05_Arrays/PrintArray_02.cs
+[Arrays]:Assets/Scripts/05_Arrays
+[Array Syntax]:Assets/Scripts/05_Arrays/Syntax.cs
+[Access Array Elements]:Assets/Scripts/05_Arrays/Elements.cs
+[Array Master]:Assets/Scripts/05_Arrays/Challenge01
+[Randomly Choose One]:Assets/Scripts/05_Arrays/Challenge02
+[Print All Elements Using For Loops]:Assets/Scripts/05_Arrays/PrintArray_01.cs
+[Print All Elements Using Foreach Loops]:Assets/Scripts/05_Arrays/PrintArray_02.cs
+[Looping Through Data]:Assets/Scripts/05_Arrays/Presentations
+[Looping Practical Example]:Assets/Scripts/05_Arrays/PracticalExample_01.cs
+[Convert to Foreach Loop]:Assets/Scripts/05_Arrays/PrintArray_02.cs
 <!-- Functions vs Methods -->
-[fm00]:Assets/Scripts/06_Functions_Methods
-[fm01]:Assets/Scripts/06_Functions_Methods/Parameters.cs
-[fm02]:Assets/Scripts/06_Functions_Methods/Challenge01
-[fm03]:Assets/Scripts/06_Functions_Methods/ReturnType.cs
-[fm04]:Assets/Scripts/06_Functions_Methods/ChangePosition.cs
-[fm05]:Assets/Scripts/06_Functions_Methods/Challenge02
-[fm06]:Assets/Scripts/06_Functions_Methods/Presentations
-[fm07]:Assets/Scripts/06_Functions_Methods/Challenge03
+[Functions vs Methods]:Assets/Scripts/06_Functions_Methods
+[Method Parameters]:Assets/Scripts/06_Functions_Methods/Parameters.cs
+[Pass the Object with Color]:Assets/Scripts/06_Functions_Methods/Challenge01
+[Return Type Functions]:Assets/Scripts/06_Functions_Methods/ReturnType.cs
+[Change Positions 4 Ways]:Assets/Scripts/06_Functions_Methods/ChangePosition.cs
+[Are You Alive?]:Assets/Scripts/06_Functions_Methods/Challenge02
+[Return Array]:Assets/Scripts/06_Functions_Methods/Presentations
+[Position Matters]:Assets/Scripts/06_Functions_Methods/Challenge03
 <!-- Classes -->
-[cl00]:Assets/Scripts/07_Classes
-[cl01]:Assets/Scripts/07_Classes "Player & Laser scripts"
-[cl02]:Assets/Scripts/07_Classes/CustomClasses
-[cl03]:Assets/Scripts/07_Classes/Presentations/RPG_ItemDB
-[cl04]:Assets/Scripts/07_Classes/Challenge01
-[cl05]:Assets/Scripts/07_Classes/Presentations/RPG_Spells
-[cl06]:Assets/Scripts/07_Classes/Inheritence
-[cl07]:Assets/Scripts/07_Classes/Presentations/BankSystem
-[cl08]:Assets/Scripts/07_Classes/VirtualMethods_Overriding
-[cl09]:Assets/Scripts/07_Classes/Structs
+[Classes]:Assets/Scripts/07_Classes
+[Classes for Behaviors]:Assets/Scripts/07_Classes
+[Custom Classes]:Assets/Scripts/07_Classes/CustomClasses
+[Serialized Custom Class RPG Item Database]:Assets/Scripts/07_Classes/Presentations/RPG_ItemDB
+[Customer Database]:Assets/Scripts/07_Classes/Challenge01
+[RPG Spell System]:Assets/Scripts/07_Classes/Presentations/RPG_Spells
+[Class Inheritence]:Assets/Scripts/07_Classes/Inheritence
+[Bank System Inheritence]:Assets/Scripts/07_Classes/Presentations/BankSystem
+[Virtual Methods and Overriding]:Assets/Scripts/07_Classes/VirtualMethods_Overriding
+[Structs, Memory Management, Values and Reference Types]:Assets/Scripts/07_Classes/Structs
 <!-- Static Types -->
-[st00]:Assets/Scripts/08_StaticTypes
-[st01]:Assets/Scripts/08_StaticTypes "Test & Score scripts"
-[st02]:Assets/Scripts/08_StaticTypes/Instance_Static
-[st03]:Assets/Scripts/08_StaticTypes/Presentations
-[st04]:Assets/Scripts/08_StaticTypes/UtiltyHelper
-[st05]:Assets/Scripts/08_StaticTypes/Challenge01
-[st06]:Assets/Scripts/08_StaticTypes/Constructor
+[Static Types]:Assets/Scripts/08_StaticTypes
+[Declaring Static Types]:Assets/Scripts/08_StaticTypes
+[Instance Members vs Static Members]:Assets/Scripts/08_StaticTypes/Instance_Static
+[Working with Static Types]:Assets/Scripts/08_StaticTypes/Presentations
+[Utility Helper Classes]:Assets/Scripts/08_StaticTypes/UtiltyHelper
+[Random Color Helpers]:Assets/Scripts/08_StaticTypes/Challenge01
+[Initializing Static Members with a Static Constructor]:Assets/Scripts/08_StaticTypes/Constructor
 <!-- Properties -->
-[p00]:Assets/Scripts/09_Properties
-[p01]:Assets/Scripts/09_Properties/GameManager.cs
-[p02]:Assets/Scripts/09_Properties/AutoProperties
-[p03]:Assets/Scripts/09_Properties/Challenge01
+[Properties]:Assets/Scripts/09_Properties
+[Hands on properties]:Assets/Scripts/09_Properties/GameManager.cs
+[Auto Properties]:Assets/Scripts/09_Properties/AutoProperties
+[Declaring Properties]:Assets/Scripts/09_Properties/Challenge01
 <!-- Namespaces -->
-[ns00]:Assets/Scripts/10_Namespaces
-[ns01]:Assets/Scripts/10_Namespaces/Weapon.cs
+[Namespaces]:Assets/Scripts/10_Namespaces
+[Hands on namespaces]:Assets/Scripts/10_Namespaces/Weapon.cs
 <!-- Lists -->
-[li00]:Assets/Scripts/11_Lists
-[li01]:Assets/Scripts/11_Lists/GameManager.cs
-[li02]:Assets/Scripts/11_Lists/Challenge01
-[li03]:Assets/Scripts/11_Lists/Challenge02
-[li04]:Assets/Scripts/11_Lists/Presentations
+[Lists]:Assets/Scripts/11_Lists
+[Hands on lists]:Assets/Scripts/11_Lists/GameManager.cs
+[You Have Been Named]:Assets/Scripts/11_Lists/Challenge01
+[Build That Object List]:Assets/Scripts/11_Lists/Challenge02
+[Creating Inventory Item DB Systems]:Assets/Scripts/11_Lists/Presentations
 <!-- Enums -->
-[en00]:Assets/Scripts/12_Enums
-[en01]:Assets/Scripts/12_Enums/SelectDifficulty.cs
-[en02]:Assets/Scripts/12_Enums/EnemyAI
-[en03]:Assets/Scripts/12_Enums/CustomClass
-[en04]:Assets/Scripts/12_Enums/CastToInt
+[Enums]:Assets/Scripts/12_Enums
+[Hands on enums]:Assets/Scripts/12_Enums/SelectDifficulty.cs
+[Enum Enemy AI]:Assets/Scripts/12_Enums/EnemyAI
+[Enums in Custom Classes]:Assets/Scripts/12_Enums/CustomClass
+[Casting Enums to Ints]:Assets/Scripts/12_Enums/CastToInt
 <!-- Dictionaries -->
-[d00]:Assets/Scripts/13_Dictionaries
-[d01]:Assets/Scripts/13_Dictionaries "Item & ItemDB scripts"
-[d02]:Assets/Scripts/13_Dictionaries/Looping
-[d03]:Assets/Scripts/13_Dictionaries/PlayerConnections
-[d04]:Assets/Scripts/13_Dictionaries/PrimitiveTypes
+[Dictionaries]:Assets/Scripts/13_Dictionaries
+[Dictionary]:Assets/Scripts/13_Dictionaries
+[Looping Through Dictionary]:Assets/Scripts/13_Dictionaries/Looping
+[Dictionary for Player Connections]:Assets/Scripts/13_Dictionaries/PlayerConnections
+[Dictionary with Primitive Types]:Assets/Scripts/13_Dictionaries/PrimitiveTypes
 <!-- Abstract Classes & Interfaces -->
-[ac00]:Assets/Scripts/14_AbstractClass_Interface
-[ac01]:Assets/Scripts/14_AbstractClass_Interface/Enemy.cs
-[ac02]:Assets/Scripts/14_AbstractClass_Interface/Challenge01
-[ac03]:Assets/Scripts/14_AbstractClass_Interface/Interface
-[ac04]:Assets/Scripts/14_AbstractClass_Interface/Polymorphism
-[ac05]:Assets/Scripts/14_AbstractClass_Interface/GenericInterfaces
+[Abtract Classes and Interfaces]:Assets/Scripts/14_AbstractClass_Interface
+[Abstract Class and Methods]:Assets/Scripts/14_AbstractClass_Interface/Enemy.cs
+[Employee Experience]:Assets/Scripts/14_AbstractClass_Interface/Challenge01
+[Interfaces Made Easy]:Assets/Scripts/14_AbstractClass_Interface/Interface
+[What is Polymorphism?]:Assets/Scripts/14_AbstractClass_Interface/Polymorphism
+[Generic Interfaces]:Assets/Scripts/14_AbstractClass_Interface/GenericInterfaces
 <!-- Delegates & Events -->
-[de00]:Assets/Scripts/15_Delegates_Events
-[de01]:Assets/Scripts/15_Delegates_Events/Delegates
-[de02]:Assets/Scripts/15_Delegates_Events/Events
-[de03]:Assets/Scripts/15_Delegates_Events/Delegates_Events
-[de04]:Assets/Scripts/15_Delegates_Events/Challenge01
-[de05]:Assets/Scripts/15_Delegates_Events/EventDriven
-[de06]:Assets/Scripts/15_Delegates_Events/Actions
-[de07]:Assets/Scripts/15_Delegates_Events/Func
-[de08]:Assets/Scripts/15_Delegates_Events/Lambda
-[de09]:Assets/Scripts/15_Delegates_Events/Excercises/Practice01
-[de10]:Assets/Scripts/15_Delegates_Events/Excercises/Practice02
-[de11]:Assets/Scripts/15_Delegates_Events/Excercises/Practice03
-[de12]:Assets/Scripts/15_Delegates_Events/Excercises/Practice04
-[de13]:Assets/Scripts/15_Delegates_Events/CallbackSystem
+[Delegates and Events]:Assets/Scripts/15_Delegates_Events
+[Delegates]:Assets/Scripts/15_Delegates_Events/Delegates
+[Events]:Assets/Scripts/15_Delegates_Events/Events
+[Working with Delegates and Events]:Assets/Scripts/15_Delegates_Events/Delegates_Events
+[Teleport Events]:Assets/Scripts/15_Delegates_Events/Challenge01
+[Practical Event Driven Programming]:Assets/Scripts/15_Delegates_Events/EventDriven
+[Actions]:Assets/Scripts/15_Delegates_Events/Actions
+[Return Type Delegates and Func]:Assets/Scripts/15_Delegates_Events/Func
+[Lambda Expressions]:Assets/Scripts/15_Delegates_Events/Lambda
+[Void Delegates with Parameters]:Assets/Scripts/15_Delegates_Events/Excercises/Practice01
+[Void Delegates with No Parameters]:Assets/Scripts/15_Delegates_Events/Excercises/Practice02
+[Return Delegates with No Parameters]:Assets/Scripts/15_Delegates_Events/Excercises/Practice03
+[Return Delegates with Parameters]:Assets/Scripts/15_Delegates_Events/Excercises/Practice04
+[Simple Callback System]:Assets/Scripts/15_Delegates_Events/CallbackSystem
 <!-- LINQ—Language-Integrated Query -->
-[ln00]:Assets/Scripts/16_LINQ
-[ln01]:Assets/Scripts/16_LINQ/LinqExample.cs
-[ln02]:Assets/Scripts/16_LINQ/Contains
-[ln03]:Assets/Scripts/16_LINQ/Distinct
-[ln04]:Assets/Scripts/16_LINQ/Where
-[ln05]:Assets/Scripts/16_LINQ/Challenge01
-[ln06]:Assets/Scripts/16_LINQ/DecendingOrder
-[ln07]:Assets/Scripts/16_LINQ/Challenge02
-[ln08]:Assets/Scripts/16_LINQ/Syntax
+[LINQ: Language-Integrated Query]:Assets/Scripts/16_LINQ
+[LINQ Introduction: Any]:Assets/Scripts/16_LINQ/LinqExample.cs
+[LINQ: Contains]:Assets/Scripts/16_LINQ/Contains
+[LINQ: Distinct]:Assets/Scripts/16_LINQ/Distinct
+[LINQ: Where]:Assets/Scripts/16_LINQ/Where
+[Hands on with LINQ]:Assets/Scripts/16_LINQ/Challenge01
+[LINQ: Order by Decending]:Assets/Scripts/16_LINQ/DecendingOrder
+[Filter Items]:Assets/Scripts/16_LINQ/Challenge02
+[How to Read and Convert Query Syntax]:Assets/Scripts/16_LINQ/Syntax
 <!-- Design Patterns: Singleton -->
-[sn00]:Assets/Scripts/DesignPatterns/17_Singleton
-[sn01]:Assets/Scripts/DesignPatterns/17_Singleton "Player & GameManager scripts"
-[sn02]:Assets/Scripts/DesignPatterns/17_Singleton/UIManager
-[sn03]:Assets/Scripts/DesignPatterns/17_Singleton/Challenge01
-[sn04]:Assets/Scripts/DesignPatterns/17_Singleton/LazyInstantiation "Player, GameManager, SpawnManager, & UIManager scripts"
-[sn05]:Assets/Scripts/DesignPatterns/17_Singleton/LazyInstantiation/Downside
-[sn06]:Assets/Scripts/DesignPatterns/17_Singleton/MonoSingleton
+[Design Patterns: Singleton]:Assets/Scripts/DesignPatterns/17_Singleton
+[Singleton Design Pattern]:Assets/Scripts/DesignPatterns/17_Singleton
+[Singleton UI Manager]:Assets/Scripts/DesignPatterns/17_Singleton/UIManager
+[Singleton Spawn Manager]:Assets/Scripts/DesignPatterns/17_Singleton/Challenge01
+[Singleton Lazy Instantiation]:Assets/Scripts/DesignPatterns/17_Singleton/LazyInstantiation
+[Downside of Lazy Instantiation]:Assets/Scripts/DesignPatterns/17_Singleton/LazyInstantiation/Downside
+[MonoSingleton]:Assets/Scripts/DesignPatterns/17_Singleton/MonoSingleton
 <!-- Design Patterns: Object Pool -->
-[op00]:Assets/Scripts/DesignPatterns/18_ObjectPooling
-[op01]:Assets/Scripts/DesignPatterns/18_ObjectPooling "Player & Bullet script"
-[op02]:Assets/Scripts/DesignPatterns/18_ObjectPooling/Challenge%2001
-[op03]:Assets/Scripts/DesignPatterns/18_ObjectPooling/Challenge%2002
-[op04]:Assets/Scripts/DesignPatterns/18_ObjectPooling/Challenge%2003
+[Design Patterns: Object Pool]:Assets/Scripts/DesignPatterns/18_ObjectPooling
+[Object Pooling Design Pattern]:Assets/Scripts/DesignPatterns/18_ObjectPooling
+[Pool Manager]:Assets/Scripts/DesignPatterns/18_ObjectPooling/Challenge%2001
+[Request from Pool Manager]:Assets/Scripts/DesignPatterns/18_ObjectPooling/Challenge%2002
+[Recycle the Pool]:Assets/Scripts/DesignPatterns/18_ObjectPooling/Challenge%2003
 <!-- Design Patterns: Command Pattern -->
-[cp00]:Assets/Scripts/DesignPatterns/19_CommandPattern
-[cp01]:Scripts/DesignPatterns/19_CommandPattern/CommandPattern
-[cp02]:Assets/Scripts/DesignPatterns/19_CommandPattern/Challenge01
-[cp03]:Assets/Scripts/DesignPatterns/19_CommandPattern/Presentation
+[Design Patterns: Command Pattern]:Assets/Scripts/DesignPatterns/19_CommandPattern
+[Command Pattern Implementation]:Scripts/DesignPatterns/19_CommandPattern/CommandPattern
+[The Command Manager]:Assets/Scripts/DesignPatterns/19_CommandPattern/Challenge01
+[Practical Command Pattern]:Assets/Scripts/DesignPatterns/19_CommandPattern/Presentation
 <!-- Misc. Unity Content -->
-[uc00]:Assets/Scripts/MiscUnityContent
-[uc01]:Assets/Scripts/MiscUnityContent/ObjectPosition
-[uc02]:Assets/Scripts/MiscUnityContent/UserInput
-[uc03]:Assets/Scripts/MiscUnityContent/SimpleMovement
-[uc04]:Assets/Scripts/MiscUnityContent/Collectable
-[uc05]:Assets/Scripts/MiscUnityContent/PauseSystem
-[uc06]:Assets/Scripts/MiscUnityContent/DestructableObject
-[uc07]:Assets/Scripts/MiscUnityContent/Rotation/SpawnCube.cs
-[uc08]:Assets/Scripts/MiscUnityContent/Rotation/Aim.cs
-[uc09]:Assets/Scripts/MiscUnityContent/Rotation/SmoothAim.cs
+[Misc. Unity Content]:Assets/Scripts/MiscUnityContent
+[Change GameObject Position]:Assets/Scripts/MiscUnityContent/ObjectPosition
+[User Input]:Assets/Scripts/MiscUnityContent/UserInput
+[Simple Movement]:Assets/Scripts/MiscUnityContent/SimpleMovement
+[Collectable GameObjects]:Assets/Scripts/MiscUnityContent/Collectable
+[Pause Systems]:Assets/Scripts/MiscUnityContent/PauseSystem
+[Destructable Crate]:Assets/Scripts/MiscUnityContent/DestructableObject
+[Quaternion and Euler Angles]:Assets/Scripts/MiscUnityContent/Rotation/SpawnCube.cs
+[Quaternion Look Rotation]:Assets/Scripts/MiscUnityContent/Rotation/Aim.cs
+[Quaternion Slerp]:Assets/Scripts/MiscUnityContent/Rotation/SmoothAim.cs
