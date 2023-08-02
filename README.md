@@ -274,7 +274,6 @@ The course progresses in difficulty, and when finished, you will have progressed
 
 </details>
 
----
 ## Assets
 The following Scenes will contain `Missing Prefabs` without the assets provided by GameDevHQ:
 
