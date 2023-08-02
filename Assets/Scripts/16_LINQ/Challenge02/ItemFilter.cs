@@ -12,7 +12,7 @@ namespace Section.LINQ.Challenge02
         public int buff;
     }
 
-    public class LinqExample : MonoBehaviour
+    public class ItemFilter : MonoBehaviour
     {
         /// Challenge:
         /// Check if itemID 3 exists in the list and print out true or false.

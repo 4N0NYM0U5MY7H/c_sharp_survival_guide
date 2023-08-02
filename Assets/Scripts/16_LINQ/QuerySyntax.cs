@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 
-namespace Section.LINQ.Syntax
+namespace Section.LINQ
 {
-    public class SyntaxTest : MonoBehaviour
+    public class QuerySyntax : MonoBehaviour
     {
         // Specify the data source.
         int[] scores = new int[] { 97, 92, 81, 60 };

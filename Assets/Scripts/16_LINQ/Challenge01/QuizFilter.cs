@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Section.LINQ.Challenge01
 {
-    public class LinqExample : MonoBehaviour
+    public class QuizFilter : MonoBehaviour
     {
         /// Challenge:
         /// Create a program where you have an integer array of quiz grades.

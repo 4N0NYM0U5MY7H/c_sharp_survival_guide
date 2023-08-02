@@ -1,9 +1,11 @@
 ﻿using UnityEngine;
 using System.Linq;
 
-namespace Section.LINQ.DecendingOrder
+namespace Section.LINQ
 {
-    public class LinqExample : MonoBehaviour
+    /// This class shows how to use the OrderByDescending method in LINQ.
+    /// Returns a collection of elements in descending order.
+    public class LinqDescending : MonoBehaviour
     {
         public int[] quizGrades = { 44, 55, 32, 77, 95, 98, 99 };
 
