@@ -1,0 +1,18 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: C# Survival Guide
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: August
+    family-names: Frisk
+    orcid: 'https://orcid.org/0009-0007-9200-8438'
+  - given-names: Jonathan
+    family-names: Weinberger
+    affiliation: GameDevHQ
+repository-code: 'https://github.com/4N0NYM0U5MY7H/c_sharp_survival_guide'
+license: MIT
